@@ -1,0 +1,38 @@
+import '../../global_styles.css';
+import './styles.css';
+
+import Logotipo from '../../images/bolos_02.png';
+import { Numeracao } from '../Numeracao';
+
+export const Pagina04 = () => {
+  return(
+    <div className='Pagina Pagina-Container Margens'>
+      <div className='Container-Img'>
+        <img className='Logo2' src={Logotipo} alt="" />
+      </div><br/><br/>
+      <div className='Container-Texto'>
+        <div className='Texto'>
+          <p className='Texto Titulo4'>MISSÃO, VISÃO E VALORES</p>
+          <br/><br/><br/>
+          <p className='Texto Titulo4'>MISSÃO</p><br/><br/>
+          <p className='Texto Titulo5'>
+            "Oferecer às pessoas produtos de qualidade, que garantam sua satisfação, agregando sabor e valor às suas vidas, trazendo à lembrança, as coisas que são realmente importantes."
+          </p><br/><br/>
+          <p className='Texto Titulo4'>VISÃO</p><br/><br/>
+          <p className='Texto Titulo5'>
+            Ser referência em bolos caseiros. Ser exemplo em condutas e processos. Ser inspiração para o resgate de valores, construindo pontes entre as pessoas.
+          </p><br/><br/>
+          <p className='Texto Titulo4'>VALORES</p><br/><br/>
+          <p className='Texto Titulo5'>
+            <i className='Texto Titulo5'>SIMPLICIDADE:</i> optar pelo simples é escolher um caminho para a felicidade; <br/>
+            <i className='Texto Titulo5'>FAMÍLIA:</i> a razão do nosso sucesso;<br/>
+            <i className='Texto Titulo5'>HUMILDADE:</i> crescer sem perder a essência.
+          </p>
+        </div>
+      </div>
+      <div className='Paginacao-Container'>
+        <Numeracao num={4} />
+      </div>
+    </div>
+  );
+}

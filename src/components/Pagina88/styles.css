@@ -1,0 +1,10 @@
+.Container-88 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.Img-90 {
+  width: 300px;
+  align-self: center;
+}

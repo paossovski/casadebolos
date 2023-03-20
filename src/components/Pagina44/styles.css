@@ -1,0 +1,55 @@
+.Container-44 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.T-44 {
+  line-height: 1.8;
+}
+
+.Container-Img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.Container-Img2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  background-color: var(--white-color);
+}
+
+.Bolos37 {
+  width: 180px;
+  height: 230px;
+}
+
+.Bolos38 {
+  width: 250px;
+  height: 150px;
+}
+
+.Bolos39 {
+  width: 80px;
+  height: 230px;
+}
+
+.Bolos40 {
+  width: 100px;
+  height: 180px;
+}
+
+.Bolos41 {
+  width: 280px;
+  height: 140px;
+}
+
+.Bolos42 {
+  width: 100px;
+  height: 180px;
+}

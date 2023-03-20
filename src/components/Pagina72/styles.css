@@ -1,0 +1,14 @@
+.Container-72 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.T-72 {
+  line-height: 1.8;
+}
+
+.Img-72 {
+  width: 450px;
+  align-self: center;
+}

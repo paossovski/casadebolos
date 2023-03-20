@@ -1,0 +1,10 @@
+.Container-47 {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white-color);
+  align-items: center;
+}
+
+.T-47 {
+  line-height: 1.8;
+}

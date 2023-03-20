@@ -1,0 +1,25 @@
+.Container-55 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.Img-Container-55 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Img-55 {
+  width: 180px;
+  height: 300px;
+}
+
+.P-55 {
+  margin-right: 40px;
+}
+
+.T-55 {
+  line-height: 1.8;
+}

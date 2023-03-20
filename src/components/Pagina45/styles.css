@@ -1,0 +1,15 @@
+.Container-45 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.T-45 {
+  line-height: 1.8;
+}
+
+.Bolos43 {
+  width: 450px;
+  height: 500px
+}

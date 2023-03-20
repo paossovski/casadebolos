@@ -1,0 +1,21 @@
+.Container-67 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.T-67 {
+  line-height: 1.8;
+}
+
+.P-67 {
+  text-align: center;
+}
+
+.P-67B {
+  font-size: 20px;
+}
+
+.P-67C {
+  font-size: 16px;
+}

@@ -1,0 +1,10 @@
+.Container-86 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.Img-86 {
+  width: 550px;
+  align-self: center;
+}

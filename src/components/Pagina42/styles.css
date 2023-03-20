@@ -1,0 +1,15 @@
+.Container-42 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.B42 {
+  background-color: yellow;
+}
+
+.T42 {
+  line-height: 1.8;
+}
+

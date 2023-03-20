@@ -1,0 +1,29 @@
+.Texto-P5 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.Container-P5 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 210px;
+  background-color: var(--white-color);
+}
+
+.Img-P5 {
+  width: 350px;
+  height: 245px;
+  margin-right: 5px;
+  background-color: var(--white-color);
+}
+
+.Bolos03 {
+  width: 100%;
+  height: 245px;
+}
+
+.T5 {
+  line-height: 1.8;
+}

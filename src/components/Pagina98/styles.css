@@ -1,0 +1,14 @@
+.Container-98 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.T-98 {
+  line-height: 1.8;
+}
+
+.P-98 {
+  background-color: var(--white-color);
+  border-bottom: 2px solid black;
+}

@@ -1,0 +1,29 @@
+.Container-46 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.T-46 {
+  line-height: 1.8;
+}
+
+.Container-Img-46 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  background-color: var(--white-color);
+}
+
+.Bolos44 {
+  width: 220px;
+  height: 340px;
+}
+
+.Bolos45 {
+  background-color: var(--white-color);
+  width: 260px;
+  height: 210px;
+}

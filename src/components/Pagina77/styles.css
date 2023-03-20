@@ -1,0 +1,18 @@
+.Container-77 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.T-77 {
+  line-height: 1.8;
+}
+
+.P-77 {
+  background-color: yellow;
+}
+
+.Img-77 {
+  width: 180px;
+  align-self: center;
+}

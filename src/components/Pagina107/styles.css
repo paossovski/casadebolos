@@ -1,0 +1,9 @@
+.Container-107 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.T-107 {
+  line-height: 1.8;
+}

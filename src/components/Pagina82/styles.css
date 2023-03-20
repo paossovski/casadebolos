@@ -1,0 +1,14 @@
+.Container-82 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.Img-82 {
+  width: 350px;
+  align-self: center;
+}
+
+.T-82 {
+  line-height: 1.8;
+}

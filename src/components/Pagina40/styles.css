@@ -1,0 +1,14 @@
+.T40 {
+  line-height: 1.8;
+}
+
+.Container-40 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Img40 {
+  width: 360px;
+}

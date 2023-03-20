@@ -1,0 +1,11 @@
+.Img23 {
+  width: 430px;
+  height: 400px;
+}
+
+.Container-P23 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

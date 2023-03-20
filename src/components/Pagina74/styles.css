@@ -1,0 +1,22 @@
+.Container-74 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.Img-72 {
+  width: 330px;
+  align-self: center;
+}
+
+.T-74 {
+  line-height: 1.8;
+}
+
+.P-74 {
+  font-size: 18px;
+}
+
+.P-74B {
+  text-align: center;
+}

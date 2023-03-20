@@ -1,0 +1,76 @@
+.Indice {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.5;
+  background-color: var(--white-color);
+}
+
+.Indice-Container {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 100%;
+  background-color: var(--white-color);
+}
+
+.Descricao {
+  display: flex;
+  justify-content: flex-start;
+  background-color: var(--white-color);
+}
+
+.Numeracao {
+  display: flex;
+  justify-content: flex-end;
+  width: 10px;
+  background-color: var(--white-color);
+}
+
+.Img-Indice {
+  width: 190px;
+  height: 55px;
+}
+
+.Img-Container {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  background-color: var(--white-color);
+}
+
+.Container {
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+
+.Paginacao-Container {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  height: auto;
+  width: 100%;
+  background-color: var(--white-color);
+}
+
+.Container-Titulo-Indice {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--white-color);
+}
+
+.Titulo-Indice, b {
+  width: auto;
+  height: auto;
+  background-color: var(--white-color); 
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  margin-top: 10px;
+}
+

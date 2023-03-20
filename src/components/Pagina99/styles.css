@@ -1,0 +1,23 @@
+.Container-99 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.T-99 {
+  line-height: 1.8;
+}
+
+.P-99 {
+  background-color: var(--white-color);
+  border-bottom: 2px solid black;
+}
+
+.C-99 {
+  background-color: var(--white-color);
+  font-size: 18px;
+}
+
+.D-99 {
+  background-color: yellow;
+}

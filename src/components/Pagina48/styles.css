@@ -1,0 +1,9 @@
+.Container-48 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.T-48 {
+  line-height: 1.8;
+} 

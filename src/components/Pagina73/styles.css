@@ -1,0 +1,14 @@
+.Container-73 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.T-73 {
+  line-height: 1.8;
+}
+
+.Img-73 {
+  width: 330px;
+  align-self: center;
+}

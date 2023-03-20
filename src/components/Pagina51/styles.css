@@ -1,0 +1,24 @@
+.Container-51 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Img-51 {
+  width: 400px;
+  height: 360px;
+}
+
+.Img-51B {
+  width: 500px;
+  height: 280px;
+}
+
+.T-51 {
+  text-align: center;
+}
+
+.P-51 {
+  line-height: 1.8;
+}

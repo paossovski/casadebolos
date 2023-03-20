@@ -1,0 +1,39 @@
+.Container-60 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+}
+
+.Container-Img-60 {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--white-color);
+  justify-content: space-between;
+}
+
+.T-60 {
+  line-height: 1.8;
+}
+
+.Img-60 {
+  width: 260px;
+  height: 350px;
+}
+
+.Container-Titulo-60 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.Img-60B {
+  background-color: var(--white-color);
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+
+.C-60 {
+  background-color: yellow;
+}
+

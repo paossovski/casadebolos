@@ -1,0 +1,27 @@
+.Container-54 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.T-54 {
+  line-height: 1.8;
+}
+
+.Container-Img-54 {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--white-color);
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.Img-54 {
+  width: 240px;
+  height: 250px;
+}
+
+.Img-54B {
+  width: 280px;
+  height: 180px;
+}

@@ -1,0 +1,22 @@
+.Container-89 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.P-89 {
+  font-size: 18px;
+}
+
+.P-89B {
+  text-align: center;
+}
+
+.T-89 {
+  line-height: 1.8;
+}
+
+.Img-89 {
+  width: 350px;
+  align-self: center;
+}

@@ -1,0 +1,14 @@
+.Container-83 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.T-83 {
+  line-height: 1.8;
+}
+
+.Img-83 {
+  width: 300px;
+  align-self: center;
+}

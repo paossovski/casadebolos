@@ -1,0 +1,27 @@
+.Container-78 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.Img-78 {
+  width: 160px;
+  align-self: center;
+}
+
+.P-78 {
+  font-size: 18px;
+}
+
+.P-78B {
+  text-align: center;
+}
+
+.T-78 {
+  line-height: 1.8;
+}
+
+.T-78C {
+  background-color: var(--white-color);
+  border-bottom: 1px solid black;
+}

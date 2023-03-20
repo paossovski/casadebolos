@@ -1,0 +1,42 @@
+.Container-58 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.T-58 {
+  color: var(--royal-blue-color);
+  line-height: 1.8;
+} 
+
+.A-58 {
+  background-color: var(--white-color);
+}
+
+.C-58 {
+  line-height: 1.8;
+}
+
+.C-581 {
+  color: var(--golden-color);
+}
+
+.C-582 {
+  color: var(--hot-pink-color);
+}
+
+.C-583 {
+  color: var(--royal-blue-color);
+}
+
+.C-584 {
+  color: var(--forest-green-color);
+}
+
+.C-585 {
+  color: var(--deep-pink-color);
+}
+
+.C-586 {
+  color: var(--orange-red-color);
+}

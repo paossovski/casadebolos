@@ -1,0 +1,41 @@
+.Container-57 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.T-57 {
+  text-align: center;
+}
+
+.T-57B {
+  font-size: 18px;
+}
+
+.Ancora-57 {
+  background-color: var(--white-color);
+}
+
+.P-57 {
+  color: var(--golden-color);
+  line-height: 1.8;
+}
+
+.P-57B {
+  color: var(--hot-pink-color);
+  line-height: 1.8;
+}
+
+.P-57C {
+  color: var(--forest-green-color);
+  line-height: 1.8;
+}
+
+.P-57D {
+  color: var(--deep-pink-color);
+  line-height: 1.8;
+}
+
+.P-57E {
+  line-height: 1.8;
+}

@@ -1,0 +1,22 @@
+.Container-76 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.T-76 {
+  line-height: 1.8;
+}
+
+.Img-76 {
+  width: 230px;
+  align-self: center;
+}
+
+.P-76 {
+  font-size: 18px;
+}
+
+.P-76B {
+  text-align: center;
+}

@@ -1,0 +1,13 @@
+.Container-39 {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white-color);
+}
+
+b {
+  font-size: 14px;
+}
+
+.T39 {
+  line-height: 1.8;
+}

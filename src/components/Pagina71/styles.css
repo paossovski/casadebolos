@@ -1,0 +1,19 @@
+.Container-71 { 
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.P-71 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.T-71 {
+  line-height: 1.8;
+}
+
+.Img-71 {
+  width: 400px;
+  align-self: center;
+}

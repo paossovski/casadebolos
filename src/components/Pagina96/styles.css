@@ -1,0 +1,14 @@
+.Container-96 {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.T-96 {
+  line-height: 1.8;
+}
+
+.C-96 {
+  border-bottom: 2px solid black;
+  background-color: var(--white-color);
+}
