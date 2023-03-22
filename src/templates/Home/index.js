@@ -3,7 +3,7 @@ import './styles.css';
 
 import { Rodape } from '../../components/Rodape';
 import { Pagina01 } from '../../components/Pagina01';
-import { Pagina02 } from '../../components/Pagina02';
+/* import { Pagina02 } from '../../components/Pagina02';
 import { Pagina03 } from '../../components/Pagina03';
 import { Pagina04 } from '../../components/Pagina04';
 import { Pagina05 } from '../../components/Pagina05';
@@ -111,7 +111,7 @@ import { Pagina106 } from '../../components/Pagina106';
 import { Pagina107 } from '../../components/Pagina107';
 import { Pagina108 } from '../../components/Pagina108';
 import { Pagina109 } from '../../components/Pagina109';
-import { Pagina110 } from '../../components/Pagina110';
+import { Pagina110 } from '../../components/Pagina110'; */
 
 export const Home = () => {
   return (
