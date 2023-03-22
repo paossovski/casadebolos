@@ -1,26 +1,25 @@
 .Titulo-Container {
   display: flex;
-  align-items:flex-end;
-  background-color: var(--white-color);
-  width: 100%;
+  flex-direction: row;
+  align-items: flex-end;
+  width: auto;
   height: 45%;
   margin-bottom: 110px;
 }
 
 .Titulo {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--font-family-tahoma);
   font-size: 4rem;
   font-weight: 600;
   text-align: center;
   color: var(--salmao-color);
-  background-color: var(--white-color);
 }
 
 .Logo-Container {
   display: flex;
+  flex-direction: row;
   width: 100%;
   height: 55%;
-  background-color: var(--white-color);
 }
 
 .Logo {
@@ -29,5 +28,10 @@
   margin-bottom: 200px;
 }
 
+@media screen and (max-width: 370px) {
+  .Titulo {
+    font-size: 3rem;
+  }
+}
 
 

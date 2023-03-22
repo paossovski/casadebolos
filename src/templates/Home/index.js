@@ -118,7 +118,7 @@ export const Home = () => {
     <div className='Container-Home'>
       <div className='Home'> 
         <Pagina01 />
-          <Rodape />
+          <Rodape />{/*
         <Pagina02 />
           <Rodape />
         <Pagina03 />
@@ -337,7 +337,7 @@ export const Home = () => {
           <Rodape />
         <Pagina110 />                       
           <Rodape />
-      </div>
+ */}      </div>
     </div> 
    );
 }
