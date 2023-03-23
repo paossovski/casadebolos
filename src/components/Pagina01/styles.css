@@ -28,7 +28,7 @@
   margin-bottom: 200px;
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 300px) {
   .Titulo {
     font-size: 2rem;
   }

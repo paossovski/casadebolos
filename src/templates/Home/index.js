@@ -3,9 +3,9 @@ import './styles.css';
 
 import { Rodape } from '../../components/Rodape';
 import { Pagina01 } from '../../components/Pagina01';
-/* import { Pagina02 } from '../../components/Pagina02';
+/* import { Pagina02 } from '../../components/Pagina02'; */
 import { Pagina03 } from '../../components/Pagina03';
-import { Pagina04 } from '../../components/Pagina04';
+/*import { Pagina04 } from '../../components/Pagina04';
 import { Pagina05 } from '../../components/Pagina05';
 import { Pagina06 } from '../../components/Pagina06';
 import { Pagina07 } from '../../components/Pagina07';
@@ -118,11 +118,11 @@ export const Home = () => {
     <div className='Container-Home'>
       <div className='Home'> 
         <Pagina01 />
+          <Rodape />
+{/*         <Pagina02 />
+          <Rodape />
+ */}        <Pagina03 />
           <Rodape />{/*
-        <Pagina02 />
-          <Rodape />
-        <Pagina03 />
-          <Rodape />
         <Pagina04 />
           <Rodape />
         <Pagina05 />
