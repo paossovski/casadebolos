@@ -31,7 +31,7 @@ html, body {
   background-color: var(--white-color);  
 } 
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 480px) {
   .Home {
     margin: 5px 5px;
   }
