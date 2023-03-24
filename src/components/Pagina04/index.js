@@ -8,25 +8,25 @@ export const Pagina04 = () => {
   return(
     <div className='Pagina Pagina-Container Margens'>
       <div className='Container-Img'>
-        <img className='Logo2' src={Logotipo} alt="" />
+        <img className='Logo-Pagina04' src={Logotipo} alt="" />
       </div><br/><br/>
       <div className='Container-Texto'>
         <div className='Texto'>
-          <p className='Texto Titulo4'>MISSÃO, VISÃO E VALORES</p>
+          <p className='Texto Titulo-Pagina04'>MISSÃO, VISÃO E VALORES</p>
           <br/><br/><br/>
-          <p className='Texto Titulo4'>MISSÃO</p><br/><br/>
-          <p className='Texto Titulo5'>
+          <p className='Texto Titulo-Pagina04'>MISSÃO</p><br/><br/>
+          <p className='Texto Titulo-Align'>
             "Oferecer às pessoas produtos de qualidade, que garantam sua satisfação, agregando sabor e valor às suas vidas, trazendo à lembrança, as coisas que são realmente importantes."
           </p><br/><br/>
-          <p className='Texto Titulo4'>VISÃO</p><br/><br/>
-          <p className='Texto Titulo5'>
+          <p className='Texto Titulo-Pagina04'>VISÃO</p><br/><br/>
+          <p className='Texto Titulo-Align'>
             Ser referência em bolos caseiros. Ser exemplo em condutas e processos. Ser inspiração para o resgate de valores, construindo pontes entre as pessoas.
           </p><br/><br/>
-          <p className='Texto Titulo4'>VALORES</p><br/><br/>
-          <p className='Texto Titulo5'>
-            <i className='Texto Titulo5'>SIMPLICIDADE:</i> optar pelo simples é escolher um caminho para a felicidade; <br/>
-            <i className='Texto Titulo5'>FAMÍLIA:</i> a razão do nosso sucesso;<br/>
-            <i className='Texto Titulo5'>HUMILDADE:</i> crescer sem perder a essência.
+          <p className='Texto Titulo-Pagina04'>VALORES</p><br/><br/>
+          <p className='Texto Titulo-Align'>
+            <i className='Texto Titulo-Align'>SIMPLICIDADE:</i> optar pelo simples é escolher um caminho para a felicidade; <br/>
+            <i className='Texto Titulo-Align'>FAMÍLIA:</i> a razão do nosso sucesso;<br/>
+            <i className='Texto Titulo-Align'>HUMILDADE:</i> crescer sem perder a essência.
           </p>
         </div>
       </div>

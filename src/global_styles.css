@@ -15,6 +15,7 @@
   --font-family-tahoma: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
   --line-height-small: 1.5;
+  --line-height-medium: 1.8;
 }
 
 .Pagina {
@@ -75,6 +76,10 @@
 
 .Margens-Book {
   padding: 1cm;
+}
+
+.Line-Height {
+  line-height: var(--line-height-medium);
 }
 
 @media screen and (max-width: 480px) {

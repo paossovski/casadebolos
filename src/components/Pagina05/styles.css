@@ -1,22 +1,20 @@
-.Texto-P5 {
+.Texto-Pagina05 {
   text-align: center;
   font-weight: 600;
   font-size: 18px;
 }
 
-.Container-P5 {
+.Container-Pagina05 {
   display: flex;
   flex-direction: row;
   width: 100%;
   height: 210px;
-  background-color: var(--white-color);
 }
 
-.Img-P5 {
+.Img-Pagina05 {
   width: 350px;
   height: 245px;
   margin-right: 5px;
-  background-color: var(--white-color);
 }
 
 .Bolos03 {
@@ -24,6 +22,19 @@
   height: 245px;
 }
 
-.T5 {
-  line-height: 1.8;
+/* @media screen and (max-width: 480px) {
+  .Container-Pagina05 {
+    height: 1000px;
+    flex-direction: column;
+  }
+
+  .Texto-Pagina05 {
+    font-size: 15px;
+  }
+
+  .Img-Pagina05 {
+    margin-right: 0;
+    width: 320px;
+  }
 }
+ */

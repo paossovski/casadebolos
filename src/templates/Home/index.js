@@ -5,11 +5,11 @@ import { Rodape } from '../../components/Rodape';
 import { Pagina01 } from '../../components/Pagina01';
 /* import { Pagina02 } from '../../components/Pagina02'; */
 import { Pagina03 } from '../../components/Pagina03';
-/*import { Pagina04 } from '../../components/Pagina04';
-import { Pagina05 } from '../../components/Pagina05';
+import { Pagina04 } from '../../components/Pagina04';
+/* import { Pagina05 } from '../../components/Pagina05'; */
 import { Pagina06 } from '../../components/Pagina06';
 import { Pagina07 } from '../../components/Pagina07';
-import { Pagina08 } from '../../components/Pagina08';
+/*import { Pagina08 } from '../../components/Pagina08';
 import { Pagina09 } from '../../components/Pagina09';
 import { Pagina10 } from '../../components/Pagina10';
 import { Pagina11 } from '../../components/Pagina11';
@@ -122,15 +122,15 @@ export const Home = () => {
 {/*         <Pagina02 />
           <Rodape />
  */}        <Pagina03 />
-          <Rodape /> {/*
+          <Rodape /> 
         <Pagina04 />
           <Rodape />
-        <Pagina05 />
-          <Rodape />
+        {/* <Pagina05 />
+          <Rodape /> */}
         <Pagina06 />
           <Rodape />              
         <Pagina07 />
-          <Rodape />        
+          <Rodape />{/*        
         <Pagina08 />
           <Rodape />
         <Pagina09 />

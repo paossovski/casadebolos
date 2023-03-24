@@ -5,8 +5,8 @@ import { Numeracao } from '../Numeracao';
 
 export const Pagina06 = () => {
   return(
-    <div className='Pagina Pagina-Container Margens'>
-      <div className='Texto T6'>
+    <div className='Pagina06 Pagina-Container Margens'>
+      <div className='Texto Line-Height'>
         posição, o hábito de “Produzir e consumir doces e bolos” e isso me despertou que ali poderíamos ter uma oportunidade. Pesquisei mais, fui atrás de redes que já trabalhavam com bolos, fiz cliente oculto nos departamentos da emissora de TV e rádio e jornal, comprei muito bolo e distribui por diversos locais para saber a reação das pessoas, até chegar no produto ideal (Casa de Bolos). Sem entender o que ainda estava por vir, fui atrás, busquei mais informações, me dediquei a guardar os recursos mínimos para abrir meu negócio de bolos, mas ainda assim, com o mercado superaquecido dos anos de 2013 e 2014, encontrar o local ideal era um desafio enorme. Foram 18 meses de pesquisa de local. Muita contagem de clientes passantes, muitos sonhos, até que um dia, meu “hobby” de fotografar casas antigas e estudar a história local me despertou para um local. Aquela casa de 1890, tombada pelo patrimônio histórico, linda, onde abrigou por décadas o primeiro jornal impresso de Santa Catarina, era o lugar ideal para abrir uma CASA DE BOLOS, que mais que produtos, precisava vender lembranças, cheiro de casa de vó, sabor de mãe e que fosse algo que tocasse as pessoas. <br/><br/>  
 
         Em 2016 foi o ano que abrimos a primeira unidade de Santa Catarina e a aceitação foi imediata, tudo aquilo que precisávamos aconteceu, o cheirinho de bolo buscava o cliente lá na rua. <br/><br/>

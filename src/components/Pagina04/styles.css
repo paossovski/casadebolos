@@ -3,10 +3,9 @@
   width: 100%;
   height: auto;
   justify-content: center;
-  background-color: var(--white-color);
 }
 
-.Logo2 {
+.Logo-Pagina04 {
   width: 190px;
   height: 55px;
 }
@@ -17,12 +16,22 @@
   height: 820px;
 }
 
-.Titulo4 {
+.Titulo-Pagina04 {
   text-align: center;
   font-size: 18px;
   font-weight: 700;
 }
 
-.Titulo5 {
+.Titulo-Align {
   text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .Container-Texto {
+    height: 1000px;
+  }
+
+  .Titulo-Pagina04 {
+    font-size: 15px;
+  }
 }
