@@ -31,9 +31,9 @@
   padding-right: 40px;
 }
 
-@media screen and (max-width: 300px) {
-  .Logotipo {
-    width: 230px;
+@media screen and (max-width: 480px) {
+  .Container-Texto {
+    height: 1000px;
   }
 }
 
