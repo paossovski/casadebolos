@@ -79,18 +79,18 @@
 
 @media screen and (max-width: 480px) {
   .Texto {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .Margens {
-    padding-left: 1cm;
-    padding-right: 1cm;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
     padding-top: 1cm;
     padding-bottom: 1cm;
   }
 
   .Paginacao {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 
