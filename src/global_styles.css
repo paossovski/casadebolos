@@ -33,6 +33,7 @@
   align-items: center; 
   align-content: center;
   justify-content: space-between;
+  width: 100%;
 }
 
 .Margens {
@@ -97,7 +98,8 @@
   .Paginacao {
     font-size: 13px;
   }
+
+  .Pagina-Mobile {
+    height: auto;
+  }
 }
-
-
-

@@ -22,19 +22,8 @@
   height: 245px;
 }
 
-/* @media screen and (max-width: 480px) {
-  .Container-Pagina05 {
-    height: 1000px;
-    flex-direction: column;
-  }
-
-  .Texto-Pagina05 {
-    font-size: 15px;
-  }
-
-  .Img-Pagina05 {
-    margin-right: 0;
-    width: 320px;
+@media screen and (max-width: 480px) {
+  .Pagina05 {
+    height: auto;
   }
 }
- */

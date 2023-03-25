@@ -6,7 +6,7 @@ import { Numeracao } from '../Numeracao';
 
 export const Pagina05 = () => {
   return(
-    <div className='Pagina Pagina-Container Margens'>
+    <div className='Pagina Pagina05 Pagina-Container Margens'>
       <p className='Texto-Pagina05 Texto'>Nossa História</p>
       <div className='Container-Pagina05'>
         <div className='Img-Pagina05'>

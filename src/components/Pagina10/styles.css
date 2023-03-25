@@ -1,27 +1,21 @@
-.Container-Texto-P10 {
-  background-color: var(--white-color);
-}
-
-.Container-P10 {
+.Container-Pagina10 {
   width: 100%;
-  height: 600px;
-  display: flex;
   flex-direction: column;
-  background-color: var(--white-color);
+  display: flex;
+  height: 600px;
 }
 
-.P10 {
+.Texto10 {
   text-align: center;
   font-size: 18px;
 }
 
-.Img-P10 {
+.Img-Pagina10 {
   width: 100%;
   height: 400px;
 }
 
-.Texto-P10 {
+.Line10 {
   line-height: 1.8;
   text-indent: 25px;
-  background-color: var(--white-color);
 }

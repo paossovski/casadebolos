@@ -9,10 +9,10 @@ import { Pagina04 } from '../../components/Pagina04';
 /* import { Pagina05 } from '../../components/Pagina05'; */
 import { Pagina06 } from '../../components/Pagina06';
 import { Pagina07 } from '../../components/Pagina07';
-/*import { Pagina08 } from '../../components/Pagina08';
+/*import { Pagina08 } from '../../components/Pagina08';*/
 import { Pagina09 } from '../../components/Pagina09';
 import { Pagina10 } from '../../components/Pagina10';
-import { Pagina11 } from '../../components/Pagina11';
+/*import { Pagina11 } from '../../components/Pagina11';
 import { Pagina12 } from '../../components/Pagina12';
 import { Pagina13 } from '../../components/Pagina13';
 import { Pagina14 } from '../../components/Pagina14';
@@ -130,13 +130,13 @@ export const Home = () => {
         <Pagina06 />
           <Rodape />              
         <Pagina07 />
-          <Rodape />{/*        
-        <Pagina08 />
-          <Rodape />
+          <Rodape />        
+        {/* <Pagina08 />
+          <Rodape /> */}
         <Pagina09 />
           <Rodape />
         <Pagina10 />
-          <Rodape />
+          <Rodape />{/*
         <Pagina11 />
           <Rodape />
         <Pagina12 />
