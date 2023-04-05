@@ -1,8 +1,8 @@
 import '../../global_styles.css';
 import './styles.css';
 
-export const Rodape = () => {
+export const Baseboard = () => {
   return(
-    <div className='Rodape'></div>
+    <div className='Baseboard'></div>
   );
 }

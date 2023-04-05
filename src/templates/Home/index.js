@@ -1,21 +1,21 @@
 import '../../global_styles.css';
 import './styles.css';
 
-import { Rodape } from '../../components/Rodape';
-import { Pagina01 } from '../../components/Pagina01';
+import { Baseboard } from '../../components/Baseboard';
+import { Page01 } from '../../components/Page01';
 /* import { Pagina02 } from '../../components/Pagina02'; */
-import { Pagina03 } from '../../components/Pagina03';
-import { Pagina04 } from '../../components/Pagina04';
-/* import { Pagina05 } from '../../components/Pagina05'; */
-import { Pagina06 } from '../../components/Pagina06';
-import { Pagina07 } from '../../components/Pagina07';
-/*import { Pagina08 } from '../../components/Pagina08';*/
-import { Pagina09 } from '../../components/Pagina09';
-import { Pagina10 } from '../../components/Pagina10';
-import { Pagina11 } from '../../components/Pagina11';
-import { Pagina12 } from '../../components/Pagina12';
-/*import { Pagina13 } from '../../components/Pagina13';
-import { Pagina14 } from '../../components/Pagina14';
+import { Page03 } from '../../components/Page03';
+import { Page04 } from '../../components/Page04';
+/* import { Page05 } from '../../components/Page05'; */
+import { Page06 } from '../../components/Page06';
+import { Page07 } from '../../components/Page07';
+import { Page08 } from '../../components/Page08';
+/* import { Pagina09 } from '../../components/Pagina09'; */
+/* import { Pagina10 } from '../../components/Pagina10'; */
+/* import { Pagina11 } from '../../components/Pagina11'; */
+/* import { Pagina12 } from '../../components/Pagina12'; */
+/* import { Pagina13 } from '../../components/Pagina13'; */
+/*import { Pagina14 } from '../../components/Pagina14';
 import { Pagina15 } from '../../components/Pagina15';
 import { Pagina16 } from '../../components/Pagina16';
 import { Pagina17 } from '../../components/Pagina17';
@@ -115,32 +115,32 @@ import { Pagina110 } from '../../components/Pagina110'; */
 
 export const Home = () => {
   return (
-    <div className='Container-Home'>
-      <div className='Home'> 
-        <Pagina01 />
-          <Rodape />
+    <div className='Home'>
+      <div className='Home__Container'> 
+        <Page01 />
+          <Baseboard />
 {/*         <Pagina02 />
           <Rodape />
- */}        <Pagina03 />
-          <Rodape /> 
-        <Pagina04 />
-          <Rodape />
-        {/* <Pagina05 />
-          <Rodape /> */}
-        <Pagina06 />
-          <Rodape />              
-        <Pagina07 />
-          <Rodape />        
-        {/* <Pagina08 />
-          <Rodape /> */}
-        <Pagina09 />
+ */}    <Page03 />
+          <Baseboard />   
+        <Page04 />
+          <Baseboard /> 
+        {/* <Page05 />
+          <Baseboard /> */}
+        <Page06 />
+          <Baseboard />              
+        <Page07 />
+          <Baseboard />          
+        <Page08 />
+          <Baseboard />
+        {/* <Pagina09 />
           <Rodape />
         <Pagina10 />
           <Rodape />
         <Pagina11 />
-          <Rodape />
-        <Pagina12 />
-          <Rodape />{/*
+          <Rodape /> */}
+        {/* <Pagina12 />
+          <Rodape /> */}{/*
         <Pagina13 />
           <Rodape />                                                        
         <Pagina14 />
@@ -336,8 +336,8 @@ export const Home = () => {
         <Pagina109 />                       
           <Rodape />
         <Pagina110 />                       
-          <Rodape />
- */}      </div>
+          <Rodape /> */}
+      </div>
     </div> 
    );
 }

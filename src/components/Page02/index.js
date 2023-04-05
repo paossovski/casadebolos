@@ -1,14 +1,15 @@
 import '../../global_styles.css';
 import './styles.css';
 
-import ImgIndice from '../../images/bolos_02.png';
-import { Numeracao } from '../Numeracao';
+import cdb02 from '../../images/cdb_02.png';
+import { Numbering } from '../Numbering';
 
-export const Pagina02 = () => {
+export const Page02 = () => {
   return(
     <div className='Pagina Pagina-Container Margens'>
+      
       <div className='Img-Container'>
-        <img className='Img-Indice' src={ImgIndice} alt="" />
+        <img className='Img-Indice' src={cdb02} alt="" />
         <div className='Container-Titulo-Indice'>
           <span className='Titulo-Indice'><b>ÍNDICE</b></span>
         </div>
@@ -140,8 +141,9 @@ export const Pagina02 = () => {
         </div>
       </div>
       <div className='Paginacao-Container'>
-        <Numeracao num={2} />
+        <Numbering num={2} />
       </div>
+    
     </div>
   );
 }

@@ -1,11 +1,11 @@
-.Rodape {
+.Baseboard {
   width: 100%;
   min-height: 15px;
   background-color: var(--light-salmao-color);
 }
 
 @media screen and (max-width: 480px) {
-  .Rodape {
+  .Baseboard {
     min-height: 5px;
   }
 }

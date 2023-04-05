@@ -14,11 +14,17 @@
   --font-family-arial: Arial, Helvetica, sans-serif;
   --font-family-tahoma: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-  --line-height-small: 1.5;
-  --line-height-medium: 1.8;
+  --font-size-14: 14px; 
+  --font-size-15: 15px;
+  --font-size-16: 16px;
+  --font-size-18: 18px;
+
+  --line-height-sm: 1.5;   /* --line-height-small */
+  --line-height-md: 1.8;  /* --line-height-medium */ 
+  --line-height-lg: 2;
 }
 
-.Pagina {
+.Page {                    /* Pagina */
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -27,30 +33,30 @@
   max-height: 29.7cm;
 }
 
-.Pagina-Container {
+.Page__Container {                    /* Pagina-Container */
   display: flex;
   flex-direction: column;
   align-items: center; 
   align-content: center;
   justify-content: space-between;
-  width: 100%;
+  width: 100%; 
 }
 
-.Margens {
+.Page__Margins {                    /* Margens */
   padding-left: 3cm;
   padding-right: 3cm;
   padding-top: 2.5cm;
   padding-bottom: 2.5cm;
 }
 
-.Texto {
+.Page__Text {                                /* Texto */
   font-family: var(--font-family-arial);
-  font-size: 14px;
+  font-size: var(--font-size-14);
   text-align: justify;
   line-height: var(--line-height-small);
 }
 
-.Paginacao-Container {
+.Pagination__Container {              /* Paginacao-Container */
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -58,48 +64,36 @@
   height: 25px;
 }
 
-.Container-Paginacao {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: flex-end;
-  width: 25px;
-  height: 25px;
-}
-
-.Paginacao {
-  width: auto;
-  height: auto;
-  color: var(--grey-medium-color);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-}
-
-.Margens-Book {
+/* .Margens-Book {
   padding: 1cm;
-}
+} */
 
-.Line-Height {
+.Page__Line--Height {                         /* Line-Height */
   line-height: var(--line-height-medium);
 }
 
 @media screen and (max-width: 480px) {
-  .Texto {
-    font-size: 15px;
+  .Page__Text {
+    font-size: var(--font-size-15);
   }
 
-  .Margens {
+  .Page__Margins {
     padding-left: 0.5cm;
     padding-right: 0.5cm;
     padding-top: 1cm;
     padding-bottom: 1cm;
   }
 
-  .Paginacao {
+/*   .Paginacao {
     font-size: 13px;
+  } */
+
+  .Page {
+    height: none;
+    max-height: none;
   }
 
-  .Pagina-Mobile {
+  .Page__Mobile {                  /* Mobile */
     height: auto;
   }
 }

@@ -6,6 +6,7 @@
 .Container-Img11 {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   text-align: center;
   width: 100%;
 }
@@ -17,5 +18,10 @@
 @media screen and (max-width: 480px) {
   .Container-Img11 {
     flex-direction: column;
+    width: auto;
+  }
+
+  .Img11 {
+    width: 300px;
   }
 }

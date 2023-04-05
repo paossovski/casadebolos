@@ -1,29 +1,23 @@
-.Texto-Pagina05 {
+.Page05__Text {
   text-align: center;
   font-weight: 600;
-  font-size: 18px;
+  font-size: var(--font-size-18);
 }
 
-.Container-Pagina05 {
+.Page05__Container {
   display: flex;
   flex-direction: row;
   width: 100%;
   height: 210px;
 }
 
-.Img-Pagina05 {
+.Page05__Img__Container {
   width: 350px;
   height: 245px;
   margin-right: 5px;
 }
 
-.Bolos03 {
+.Page05__Img {
   width: 100%;
   height: 245px;
-}
-
-@media screen and (max-width: 480px) {
-  .Pagina05 {
-    height: auto;
-  }
 }

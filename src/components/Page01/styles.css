@@ -1,4 +1,4 @@
-.Titulo-Container {
+.Cover__Container {      
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -7,7 +7,7 @@
   margin-bottom: 110px;
 }
 
-.Titulo {
+.Cover__Title {
   font-family: var(--font-family-tahoma);
   font-size: 4rem;
   font-weight: 600;
@@ -15,23 +15,24 @@
   color: var(--salmao-color);
 }
 
-.Logo-Container {
+.Cover__Logo__Container {   
   display: flex;
   flex-direction: row;
   width: 100%;
   height: 55%;
 }
 
-.Logo {
+.Cover__Logo {
   width: 100%;
   height: 25%;
   margin-bottom: 200px;
 }
 
 @media screen and (max-width: 480px) {
-  .Titulo {
+  .Cover__Title {
     font-size: 3rem;
   }
 }
+
 
 

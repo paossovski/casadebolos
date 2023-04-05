@@ -8,8 +8,8 @@ import { Numeracao } from '../Numeracao';
 
 export const Pagina12 = () => {
   return(
-    <div className='Pagina-Mobile Pagina-Conteiner Margens'>
-      <div>
+    <div className='Pagina Mobile Pagina-Conteiner Margens'>
+      <div className='Container-Main'> 
         <h1 className='Texto Align12'>NOSSA PRIMEIRA LOJA</h1><br/><br/>
         <div className='Container-Img12'>
           <div className='Img12B'>
