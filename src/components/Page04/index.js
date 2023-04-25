@@ -16,15 +16,15 @@ export const Page04 = () => {
           <p className='Page__Text Page04__Title'>MISSÃO, VISÃO E VALORES</p>
           <br/><br/><br/>
           <p className='Page__Text Page04__Title'>MISSÃO</p><br/><br/>
-          <p className='Page__Text Page04__Title--Align'>
+          <p className='Page__Text Page04__Title--Align Page__Line--Height'>
             "Oferecer às pessoas produtos de qualidade, que garantam sua satisfação, agregando sabor e valor às suas vidas, trazendo à lembrança, as coisas que são realmente importantes."
           </p><br/><br/>
           <p className='Page__Text Page04__Title'>VISÃO</p><br/><br/>
-          <p className='Page__Text Page04__Title--Align'>
+          <p className='Page__Text Page04__Title--Align Page__Line--Height'>
             Ser referência em bolos caseiros. Ser exemplo em condutas e processos. Ser inspiração para o resgate de valores, construindo pontes entre as pessoas.
           </p><br/><br/>
           <p className='Page__Text Page04__Title'>VALORES</p><br/><br/>
-          <p className='Page__Text Page04__Title--Align'>
+          <p className='Page__Text Page04__Title--Align Page__Line--Height'>
             <i className='Page__Text Page04__Title--Align'>SIMPLICIDADE:</i> optar pelo simples é escolher um caminho para a felicidade; <br/>
             <i className='Page__Text Page04__Title--Align'>FAMÍLIA:</i> a razão do nosso sucesso;<br/>
             <i className='Page__Text Page04__Title--Align'>HUMILDADE:</i> crescer sem perder a essência.

@@ -18,6 +18,7 @@
   --font-size-15: 15px;
   --font-size-16: 16px;
   --font-size-18: 18px;
+  --font-size-20: 20px;
 
   --line-height-sm: 1.5;   /* --line-height-small */
   --line-height-md: 1.8;  /* --line-height-medium */ 
@@ -64,12 +65,18 @@
   height: 25px;
 }
 
-/* .Margens-Book {
-  padding: 1cm;
-} */
+.Page__Book__Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Page__Book__Img {
+  height: 820px;
+}
 
 .Page__Line--Height {                         /* Line-Height */
-  line-height: var(--line-height-medium);
+  line-height: var(--line-height-md);
 }
 
 @media screen and (max-width: 480px) {
@@ -95,5 +102,11 @@
 
   .Page__Mobile {                  /* Mobile */
     height: auto;
+    min-height: 1100px;
+  }
+
+  .Page__Book__Img {
+    width: 310px;
+    height: 500px;
   }
 }

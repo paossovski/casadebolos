@@ -9,30 +9,30 @@ import { Page04 } from '../../components/Page04';
 /* import { Page05 } from '../../components/Page05'; */
 import { Page06 } from '../../components/Page06';
 import { Page07 } from '../../components/Page07';
-import { Page08 } from '../../components/Page08';
-/* import { Pagina09 } from '../../components/Pagina09'; */
-/* import { Pagina10 } from '../../components/Pagina10'; */
-/* import { Pagina11 } from '../../components/Pagina11'; */
-/* import { Pagina12 } from '../../components/Pagina12'; */
-/* import { Pagina13 } from '../../components/Pagina13'; */
+/* import { Page08 } from '../../components/Page08'; */
+import { Page09 } from '../../components/Page09';
+import { Page10 } from '../../components/Page10';
+import { Page11 } from '../../components/Page11';
+/* import { Page12 } from '../../components/Page12'; */
+/* import { Page13 } from '../../components/Page13'; 
 /*import { Pagina14 } from '../../components/Pagina14';
 import { Pagina15 } from '../../components/Pagina15';
 import { Pagina16 } from '../../components/Pagina16';
 import { Pagina17 } from '../../components/Pagina17';
-import { Pagina18 } from '../../components/Pagina18';
-import { Pagina19 } from '../../components/Pagina19';
+import { Pagina18 } from '../../components/Pagina18';*/
+import { Page19 } from '../../components/Page19';/*
 import { Pagina20 } from '../../components/Pagina20';
-import { Pagina21 } from '../../components/Pagina21';
-import { Pagina22 } from '../../components/Pagina22';
-import { Pagina23 } from '../../components/Pagina23';
-import { Pagina24 } from '../../components/Pagina24';
-import { Pagina25 } from '../../components/Pagina25';
-import { Pagina26 } from '../../components/Pagina26';
-import { Pagina27 } from '../../components/Pagina27';
-import { Pagina28 } from '../../components/Pagina28';
-import { Pagina29 } from '../../components/Pagina29';
-import { Pagina30 } from '../../components/Pagina30';
-import { Pagina31 } from '../../components/Pagina31';
+import { Pagina21 } from '../../components/Pagina21'; */
+import { Page22 } from '../../components/Page22';
+import { Page23 } from '../../components/Page23';
+import { Page24 } from '../../components/Page24';
+import { Page25 } from '../../components/Page25';
+import { Page26 } from '../../components/Page26';
+import { Page27 } from '../../components/Page27';
+import { Page28 } from '../../components/Page28';
+import { Page29 } from '../../components/Page29';
+import { Page30 } from '../../components/Page30';
+import { Page31 } from '../../components/Page31';/*
 import { Pagina32 } from '../../components/Pagina32';
 import { Pagina33 } from '../../components/Pagina33';
 import { Pagina34 } from '../../components/Pagina34';
@@ -131,19 +131,19 @@ export const Home = () => {
           <Baseboard />              
         <Page07 />
           <Baseboard />          
-        <Page08 />
+        {/* <Page08 />
+          <Baseboard /> */}
+        <Page09 />
           <Baseboard />
-        {/* <Pagina09 />
-          <Rodape />
-        <Pagina10 />
-          <Rodape />
-        <Pagina11 />
-          <Rodape /> */}
-        {/* <Pagina12 />
-          <Rodape /> */}{/*
-        <Pagina13 />
-          <Rodape />                                                        
-        <Pagina14 />
+        <Page10 />
+          <Baseboard />
+        <Page11 />
+          <Baseboard />
+        {/* <Page12 />
+          <Baseboard /> */}
+        {/* <Page13 />
+          <Baseboard /> */}
+{/*         <Pagina14 />
           <Rodape />
         <Pagina15 />
           <Rodape />
@@ -153,32 +153,32 @@ export const Home = () => {
           <Rodape /> 
         <Pagina18 />                       
           <Rodape />                       
-        <Pagina19 />                       
-          <Rodape />                       
-        <Pagina20 />                       
+ */}        <Page19 />                       
+          <Baseboard />                       
+{/*         <Pagina20 />                       
           <Rodape />     
         <Pagina21 />                       
-          <Rodape />
-        <Pagina22 />                       
-          <Rodape />
-        <Pagina23 />                       
-          <Rodape />
-        <Pagina24 />                       
-          <Rodape />
-        <Pagina25 />                       
-          <Rodape />
-        <Pagina26 />                       
-          <Rodape />
-        <Pagina27 />                       
-          <Rodape />
-        <Pagina28 />                       
-          <Rodape />
-        <Pagina29 />                       
-          <Rodape />
-        <Pagina30 />                       
-          <Rodape />
-        <Pagina31 />                       
-          <Rodape />
+          <Rodape /> */}
+        <Page22 />                       
+          <Baseboard />
+        <Page23 />                       
+          <Baseboard />
+        <Page24 />                       
+          <Baseboard />
+        <Page25 />                       
+          <Baseboard />
+        <Page26 />                       
+          <Baseboard />
+        <Page27 />                       
+          <Baseboard />
+        <Page28 />                       
+          <Baseboard />
+        <Page29 />                       
+          <Baseboard />
+        <Page30 />                       
+          <Baseboard />
+        <Page31 />                       
+          <Baseboard />{/*
         <Pagina32 />                       
           <Rodape />
         <Pagina33 />                       
