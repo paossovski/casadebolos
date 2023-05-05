@@ -32,25 +32,25 @@ import { Page27 } from '../../components/Page27';
 import { Page28 } from '../../components/Page28';
 import { Page29 } from '../../components/Page29';
 import { Page30 } from '../../components/Page30';
-import { Page31 } from '../../components/Page31';/*
-import { Pagina32 } from '../../components/Pagina32';
-import { Pagina33 } from '../../components/Pagina33';
-import { Pagina34 } from '../../components/Pagina34';
-import { Pagina35 } from '../../components/Pagina35';
-import { Pagina36 } from '../../components/Pagina36';
-import { Pagina37 } from '../../components/Pagina37';
-import { Pagina38 } from '../../components/Pagina38';
-import { Pagina39 } from '../../components/Pagina39';
-import { Pagina40 } from '../../components/Pagina40';
-import { Pagina41 } from '../../components/Pagina41';
-import { Pagina42 } from '../../components/Pagina42';
-import { Pagina43 } from '../../components/Pagina43';
-import { Pagina44 } from '../../components/Pagina44';
-import { Pagina45 } from '../../components/Pagina45';
-import { Pagina46 } from '../../components/Pagina46';
-import { Pagina47 } from '../../components/Pagina47';
-import { Pagina48 } from '../../components/Pagina48';
-import { Pagina49 } from '../../components/Pagina49';
+import { Page31 } from '../../components/Page31';
+import { Page32 } from '../../components/Page32';
+import { Page33 } from '../../components/Page33';
+import { Page34 } from '../../components/Page34';
+import { Page35 } from '../../components/Page35';
+import { Page36 } from '../../components/Page36';
+import { Page37 } from '../../components/Page37';
+import { Page38 } from '../../components/Page38';
+import { Page39 } from '../../components/Page39';
+import { Page40 } from '../../components/Page40';
+import { Page41 } from '../../components/Page41';
+import { Page42 } from '../../components/Page42';
+import { Page43 } from '../../components/Page43';
+import { Page44 } from '../../components/Page44';
+import { Page45 } from '../../components/Page45';
+import { Page46 } from '../../components/Page46';
+import { Page47 } from '../../components/Page47';
+import { Page48 } from '../../components/Page48';
+import { Page49 } from '../../components/Page49';/*
 import { Pagina50 } from '../../components/Pagina50';
 import { Pagina51 } from '../../components/Pagina51';
 import { Pagina52 } from '../../components/Pagina52';
@@ -178,43 +178,43 @@ export const Home = () => {
         <Page30 />                       
           <Baseboard />
         <Page31 />                       
+          <Baseboard />
+        <Page32 />                       
+          <Baseboard />
+        <Page33 />                       
+          <Baseboard />
+        <Page34 />                       
+          <Baseboard />
+        <Page35 />                       
+          <Baseboard />
+        <Page36 />                       
+          <Baseboard />
+        <Page37 />                       
+          <Baseboard />
+        <Page38 />                       
+          <Baseboard/>
+        <Page39 />                       
+          <Baseboard />
+        <Page40 />                       
+          <Baseboard />
+        <Page41 />                       
+          <Baseboard />
+        <Page42 />                       
+          <Baseboard />
+        <Page43 />                       
+          <Baseboard />
+        <Page44 />                       
+          <Baseboard />
+        <Page45 />                       
+          <Baseboard />
+        <Page46 />                       
+          <Baseboard />
+        <Page47 />                       
+          <Baseboard />
+        <Page48 />                       
+          <Baseboard />
+        <Page49 />                       
           <Baseboard />{/*
-        <Pagina32 />                       
-          <Rodape />
-        <Pagina33 />                       
-          <Rodape />
-        <Pagina34 />                       
-          <Rodape />
-        <Pagina35 />                       
-          <Rodape />
-        <Pagina36 />                       
-          <Rodape />
-        <Pagina37 />                       
-          <Rodape />
-        <Pagina38 />                       
-          <Rodape />
-        <Pagina39 />                       
-          <Rodape />
-        <Pagina40 />                       
-          <Rodape />
-        <Pagina41 />                       
-          <Rodape />
-        <Pagina42 />                       
-          <Rodape />
-        <Pagina43 />                       
-          <Rodape />
-        <Pagina44 />                       
-          <Rodape />
-        <Pagina45 />                       
-          <Rodape />
-        <Pagina46 />                       
-          <Rodape />
-        <Pagina47 />                       
-          <Rodape />
-        <Pagina48 />                       
-          <Rodape />
-        <Pagina49 />                       
-          <Rodape />
         <Pagina50 />                       
           <Rodape />
         <Pagina51 />                       
