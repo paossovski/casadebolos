@@ -50,18 +50,18 @@ import { Page45 } from '../../components/Page45';
 import { Page46 } from '../../components/Page46';
 import { Page47 } from '../../components/Page47';
 import { Page48 } from '../../components/Page48';
-import { Page49 } from '../../components/Page49';/*
-import { Pagina50 } from '../../components/Pagina50';
-import { Pagina51 } from '../../components/Pagina51';
-import { Pagina52 } from '../../components/Pagina52';
-import { Pagina53 } from '../../components/Pagina53';
-import { Pagina54 } from '../../components/Pagina54';
-import { Pagina55 } from '../../components/Pagina55';
-import { Pagina56 } from '../../components/Pagina56';
-import { Pagina57 } from '../../components/Pagina57';
-import { Pagina58 } from '../../components/Pagina58';
-import { Pagina59 } from '../../components/Pagina59';
-import { Pagina60 } from '../../components/Pagina60';
+import { Page49 } from '../../components/Page49';
+import { Page50 } from '../../components/Page50';
+import { Page51 } from '../../components/Page51';
+import { Page52 } from '../../components/Page52';
+import { Page53 } from '../../components/Page53';
+import { Page54 } from '../../components/Page54';
+import { Page55 } from '../../components/Page55';
+import { Page56 } from '../../components/Page56';
+import { Page57 } from '../../components/Page57';
+import { Page58 } from '../../components/Page58';
+import { Page59 } from '../../components/Page59';
+import { Page60 } from '../../components/Page60';/*
 import { Pagina61 } from '../../components/Pagina61';
 import { Pagina62 } from '../../components/Pagina62';
 import { Pagina63 } from '../../components/Pagina63';
@@ -214,29 +214,29 @@ export const Home = () => {
         <Page48 />                       
           <Baseboard />
         <Page49 />                       
+          <Baseboard />
+        <Page50 />                       
+          <Baseboard />
+        <Page51 />                       
+          <Baseboard />
+        <Page52 />                       
+          <Baseboard />
+        <Page53 />                       
+          <Baseboard />
+        <Page54 />                       
+          <Baseboard />
+        <Page55 />                       
+          <Baseboard />
+        <Page56 />                       
+          <Baseboard />
+        <Page57 />                       
+          <Baseboard />
+        <Page58 />                       
+          <Baseboard />
+        <Page59 />                       
+          <Baseboard />
+        <Page60 />                       
           <Baseboard />{/*
-        <Pagina50 />                       
-          <Rodape />
-        <Pagina51 />                       
-          <Rodape />
-        <Pagina52 />                       
-          <Rodape />
-        <Pagina53 />                       
-          <Rodape />
-        <Pagina54 />                       
-          <Rodape />
-        <Pagina55 />                       
-          <Rodape />
-        <Pagina56 />                       
-          <Rodape />
-        <Pagina57 />                       
-          <Rodape />
-        <Pagina58 />                       
-          <Rodape />
-        <Pagina59 />                       
-          <Rodape />
-        <Pagina60 />                       
-          <Rodape />
         <Pagina61 />                       
           <Rodape />
         <Pagina62 />                       
