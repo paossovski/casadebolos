@@ -1,0 +1,9 @@
+.Page106__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page106__Text--Color {
+  color: red;
+  background-color: yellow;
+}

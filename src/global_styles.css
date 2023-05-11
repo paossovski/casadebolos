@@ -20,12 +20,12 @@
   --font-size-18: 18px;
   --font-size-20: 20px;
 
-  --line-height-sm: 1.5;   /* --line-height-small */
-  --line-height-md: 1.8;  /* --line-height-medium */ 
+  --line-height-sm: 1.5;   
+  --line-height-md: 1.8;  
   --line-height-lg: 2;
 }
 
-.Page {                    /* Pagina */
+.Page {                   
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -34,7 +34,7 @@
   max-height: 29.7cm;
 }
 
-.Page__Container {                    /* Pagina-Container */
+.Page__Container {                    
   display: flex;
   flex-direction: column;
   align-items: center; 
@@ -43,21 +43,21 @@
   width: 100%; 
 }
 
-.Page__Margins {                    /* Margens */
+.Page__Margins {                    
   padding-left: 3cm;
   padding-right: 3cm;
   padding-top: 2.5cm;
   padding-bottom: 2.5cm;
 }
 
-.Page__Text {                                /* Texto */
+.Page__Text {                                
   font-family: var(--font-family-arial);
   font-size: var(--font-size-14);
   text-align: justify;
   line-height: var(--line-height-small);
 }
 
-.Pagination__Container {              /* Paginacao-Container */
+.Pagination__Container {              
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -75,7 +75,7 @@
   height: 820px;
 }
 
-.Page__Line--Height {                         /* Line-Height */
+.Page__Line--Height {                         
   line-height: var(--line-height-md);
 }
 
@@ -91,16 +91,12 @@
     padding-bottom: 1cm;
   }
 
-/*   .Paginacao {
-    font-size: 13px;
-  } */
-
   .Page {
     height: none;
     max-height: none;
   }
 
-  .Page__Mobile {                  /* Mobile */
+  .Page__Mobile {                  
     height: auto;
     min-height: 1100px;
   }

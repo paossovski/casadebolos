@@ -56,4 +56,12 @@
     align-items: center;
     justify-content: center;
   }
+
+  .Page12__Img__Margins {
+    width: 280px;
+  }
+
+  .Page12__Legend {
+    margin-bottom: 20px;
+  }
 }

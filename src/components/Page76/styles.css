@@ -1,0 +1,17 @@
+.Page76__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page76__Img {
+  width: 230px;
+  align-self: center;
+}
+
+.Page76__Text--Font {
+  font-size: var(--font-size-18);
+}
+
+.Page76__Text--Align {
+  text-align: center;
+}

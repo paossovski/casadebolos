@@ -1,0 +1,13 @@
+.Page69__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page69__Text--Align {
+  font-size: 20px;
+  text-align: center;
+}
+
+.Page69__Text--Border {
+  border-bottom: 3px solid black;
+}

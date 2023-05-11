@@ -6,144 +6,203 @@ import { Numbering } from '../Numbering';
 
 export const Page02 = () => {
   return(
-    <div className='Pagina Pagina-Container Margens'>
-      
-      <div className='Img-Container'>
-        <img className='Img-Indice' src={cdb02} alt="" />
-        <div className='Container-Titulo-Indice'>
-          <span className='Titulo-Indice'><b>ÍNDICE</b></span>
+    <div className='Page Page__Container Page__Margins Page__Mobile'>
+      <div className='Page02__Container'>
+        <img className='Page02__Img' src={cdb02} alt="" />
+        <div className='Page02__Title__Container'>
+          <b className='Page02__Title--Font'>ÍNDICE</b>
         </div>
-      </div>
-      <div className='Container'>
-        <div className='Indice'>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Apresentação Casa de Bolos</span>
-            <span className='Numeracao'>03</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Missão, Visão e Valores</span>
-            <span className='Numeracao'>04</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Nossa história</span>
-            <span className='Numeracao'>05</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Composição de equipes</span>
-            <span className='Numeracao'>09</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Central de Atendimento</span>
-            <span className='Numeracao'>10</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Nossa primeira loja</span>
-            <span className='Numeracao'>12</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Inaugurações e endereços</span>
-            <span className='Numeracao'>13</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Como explicar onde estão localizadas as lojas em Florianópolis e Região</span>
-            <span className='Numeracao'>14</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Casa de Bolos Curitiba</span>
-            <span className='Numeracao'>18</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Trabalhos e Ações Sociais</span>
-            <span className='Numeracao'>22</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Curiosidades</span>
-            <span className='Numeracao'>24</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Dicas da Vó Sonia</span>
-            <span className='Numeracao'>25</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Nossas Bases</span>
-            <span className='Numeracao'>37</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Orientações para área de atendimento   </span>
-            <span className='Numeracao'>38</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Informações complementares</span>
-            <span className='Numeracao'>51</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Situação Emergencial LockDown</span>
-            <span className='Numeracao'>56</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Comunicação entre lojas e com clientes
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            Apresentação Casa de Bolos
+          </span>
+          <span className='Page__Index'>03</span>
+        </div>
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            Missão, Visão e Valores
+          </span>
+          <span className='Page__Index'>04</span>
+        </div>
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            Nossa história
+          </span>
+          <span className='Page__Index'>05</span>
+        </div>
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            Composição de equipes
+          </span>
+          <span className='Page__Index'>09</span>
+        </div>
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            Central de Atendimento
+          </span>
+          <span className='Page__Index'>10</span>
+        </div> 
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            Nossa primeira loja
+          </span>
+          <span className='Page__Index'>12</span>
+        </div>
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            Inaugurações e endereços
+          </span>
+          <span className='Page__Index'>13</span>
+        </div>
+        <div className='Page02__Index'>
+          <div className='Page_Break'>
+            <span className='Page__Index'>
+              Como explicar onde estão localizadas  &nbsp; 
             </span>
-            <span className='Numeracao'>57</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Área de produção</span>
-            <span className='Numeracao'>59</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Atendimento ao cliente</span>
-            <span className='Numeracao'>67</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>RH e Administrativo</span>
-            <span className='Numeracao'>69</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Sobre nossos bolos</span>
-            <span className='Numeracao'>71</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Estacionamento</span>
-            <span className='Numeracao'>74</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Redes Sociais</span>
-            <span className='Numeracao'>76</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Relação com Clientes</span>
-            <span className='Numeracao'>78</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Práticas diárias de colaboradoras</span>
-            <span className='Numeracao'>80</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Delivery</span>
-            <span className='Numeracao'>89</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>FAQ</span>
-            <span className='Numeracao'>92</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Escopos de Trabalho</span>
-            <span className='Numeracao'>110</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Fotos</span>
-            <span className='Numeracao'>122</span> <br/>
-          </div>
-          <div className='Indice-Container'>
-            <span className='Descricao'>Considerações Finais - Depoimentos
+            <span className='Page__Index'>
+              as lojas em  Florianópolis e Região
             </span>
-            <span className='Numeracao'>129</span> <br/>
+          </div>
+          <div className='Page__Break--Number'>
+            <span className='Page__Index'>14</span>
           </div>
         </div>
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            Casa de Bolos Curitiba
+          </span>
+          <span className='Page__Index'>18</span>
+        </div>
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            Trabalhos e Ações Sociais
+          </span>
+          <span className='Page__Index'>22</span>
+        </div>
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            Curiosidades
+          </span>
+          <span className='Page__Index'>24</span>
+        </div>
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            Dicas da Vó Sônia
+          </span>
+          <span className='Page__Index'>25</span>
+        </div>
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            Nossas Bases
+          </span>
+          <span className='Page__Index'>37</span>
+        </div>
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            Orientações para área de atendimento
+          </span>
+          <span className='Page__Index'>38</span>
+        </div>
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            Informações complementares
+          </span>
+          <span className='Page__Index'>51</span>
+        </div>
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            Situação Emergencial LockDown
+          </span>
+          <span className='Page__Index'>56</span>
+        </div>
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            Comunicação entre lojas e com clientes
+          </span>
+          <span className='Page__Index'>57</span>
+        </div>
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            Área de produção
+          </span>
+          <span className='Page__Index'>59</span>
+        </div>
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            Atendimento ao cliente
+          </span>
+          <span className='Page__Index'>67</span>
+        </div>
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            RH e Administrativo
+          </span>
+          <span className='Page__Index'>69</span>
+        </div>
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            Sobre nossos bolos
+          </span>
+          <span className='Page__Index'>71</span>
+        </div>
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            Estacionamento
+          </span>
+          <span className='Page__Index'>74</span>
+        </div>
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            Redes Sociais
+          </span>
+          <span className='Page__Index'>76</span>
+        </div>
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            Relação com Clientes
+          </span>
+          <span className='Page__Index'>78</span>
+        </div>
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            Práticas diárias de colaboradoras
+          </span>
+          <span className='Page__Index'>80</span>
+        </div>
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            Delivery
+          </span>
+          <span className='Page__Index'>89</span>
+        </div>
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            FAQ
+          </span>
+          <span className='Page__Index'>92</span>
+        </div>
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            Escopos de Trabalho
+          </span>
+          <span className='Page__Index'>110</span>
+        </div>
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            Fotos
+          </span>
+          <span className='Page__Index'>122</span>
+        </div>
+        <div className='Page02__Index'>
+          <span className='Page__Index'>
+            Considerações Finais - Depoimentos
+          </span>
+          <span className='Page__Index'>129</span>
+        </div>                                            
       </div>
-      <div className='Paginacao-Container'>
+      <div className='Pagination__Container'>
         <Numbering num={2} />
       </div>
-    
     </div>
   );
 }

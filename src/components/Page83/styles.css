@@ -1,0 +1,9 @@
+.Page83__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page83__Img {
+  width: 300px;
+  align-self: center;
+}

@@ -1,12 +1,24 @@
 import '../../global_styles.css';
 import './styles.css';
 
+import cdb96 from '../../images/cdb_96.png';
+
 import { Numbering } from '../Numbering';
 
 export const Page18 = () => {
   return(
-    <div className='Page Page__Container Page__Margins'>
-      <div>Mapa mauro ramos</div>
+    <div className='Page Page__Container Page__Margins Page__Mobile'>
+      <div className='Page18__Container'>
+        <p>
+          <b className='Page__Text Page18__Text--Border'>
+            LOCALIZAÇÃO LOJA CENTRO 3 – 
+          </b> &nbsp; AVENIDA MAURO RAMOS, 1225
+        </p><br/><br/>
+        <p className='Page__Text Page__Line--Height'>
+          Próximo ao posto de gasolina J Cristóvão (aquele que forma fila na frente) e quase na frente da Igreja Universal.
+        </p><br/><br/>
+        <img className='Page18__Img' src={cdb96} alt='' />
+      </div>
       <div className='Pagination__Container'>
         <Numbering num={18} />
       </div>

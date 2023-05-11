@@ -3,26 +3,26 @@ import './styles.css';
 
 import { Baseboard } from '../../components/Baseboard';
 import { Page01 } from '../../components/Page01';
-/* import { Pagina02 } from '../../components/Pagina02'; */
+import { Page02 } from '../../components/Page02';
 import { Page03 } from '../../components/Page03';
 import { Page04 } from '../../components/Page04';
-/* import { Page05 } from '../../components/Page05'; */
+import { Page05 } from '../../components/Page05';
 import { Page06 } from '../../components/Page06';
 import { Page07 } from '../../components/Page07';
-/* import { Page08 } from '../../components/Page08'; */
+import { Page08 } from '../../components/Page08';
 import { Page09 } from '../../components/Page09';
 import { Page10 } from '../../components/Page10';
 import { Page11 } from '../../components/Page11';
-/* import { Page12 } from '../../components/Page12'; */
-/* import { Page13 } from '../../components/Page13'; 
-/*import { Pagina14 } from '../../components/Pagina14';
-import { Pagina15 } from '../../components/Pagina15';
-import { Pagina16 } from '../../components/Pagina16';
-import { Pagina17 } from '../../components/Pagina17';
-import { Pagina18 } from '../../components/Pagina18';*/
-import { Page19 } from '../../components/Page19';/*
-import { Pagina20 } from '../../components/Pagina20';
-import { Pagina21 } from '../../components/Pagina21'; */
+import { Page12 } from '../../components/Page12';
+import { Page13 } from '../../components/Page13'; 
+import { Page14 } from '../../components/Page14';
+import { Page15 } from '../../components/Page15';
+import { Page16 } from '../../components/Page16';
+import { Page17 } from '../../components/Page17';
+import { Page18 } from '../../components/Page18';
+import { Page19 } from '../../components/Page19';
+import { Page20 } from '../../components/Page20';
+import { Page21 } from '../../components/Page21'; 
 import { Page22 } from '../../components/Page22';
 import { Page23 } from '../../components/Page23';
 import { Page24 } from '../../components/Page24';
@@ -61,57 +61,57 @@ import { Page56 } from '../../components/Page56';
 import { Page57 } from '../../components/Page57';
 import { Page58 } from '../../components/Page58';
 import { Page59 } from '../../components/Page59';
-import { Page60 } from '../../components/Page60';/*
-import { Pagina61 } from '../../components/Pagina61';
-import { Pagina62 } from '../../components/Pagina62';
-import { Pagina63 } from '../../components/Pagina63';
-import { Pagina64 } from '../../components/Pagina64';
-import { Pagina65 } from '../../components/Pagina65';
-import { Pagina66 } from '../../components/Pagina66';
-import { Pagina67 } from '../../components/Pagina67';
-import { Pagina68 } from '../../components/Pagina68';
-import { Pagina69 } from '../../components/Pagina69';
-import { Pagina70 } from '../../components/Pagina70';
-import { Pagina71 } from '../../components/Pagina71';
-import { Pagina72 } from '../../components/Pagina72';
-import { Pagina73 } from '../../components/Pagina73';
-import { Pagina74 } from '../../components/Pagina74';
-import { Pagina75 } from '../../components/Pagina75';
-import { Pagina76 } from '../../components/Pagina76';
-import { Pagina77 } from '../../components/Pagina77';
-import { Pagina78 } from '../../components/Pagina78';
-import { Pagina79 } from '../../components/Pagina79';
-import { Pagina80 } from '../../components/Pagina80';
-import { Pagina81 } from '../../components/Pagina81';
-import { Pagina82 } from '../../components/Pagina82';
-import { Pagina83 } from '../../components/Pagina83';
-import { Pagina84 } from '../../components/Pagina84';
-import { Pagina85 } from '../../components/Pagina85';
-import { Pagina86 } from '../../components/Pagina86';
-import { Pagina87 } from '../../components/Pagina87';
-import { Pagina88 } from '../../components/Pagina88';
-import { Pagina89 } from '../../components/Pagina89';
-import { Pagina90 } from '../../components/Pagina90';
-import { Pagina91 } from '../../components/Pagina91';
-import { Pagina92 } from '../../components/Pagina92';
-import { Pagina93 } from '../../components/Pagina93';
-import { Pagina94 } from '../../components/Pagina94';
-import { Pagina95 } from '../../components/Pagina95';
-import { Pagina96 } from '../../components/Pagina96';
-import { Pagina97 } from '../../components/Pagina97';
-import { Pagina98 } from '../../components/Pagina98';
-import { Pagina99 } from '../../components/Pagina99';
-import { Pagina100 } from '../../components/Pagina100';
-import { Pagina101 } from '../../components/Pagina101';
-import { Pagina102 } from '../../components/Pagina102';
-import { Pagina103 } from '../../components/Pagina103';
-import { Pagina104 } from '../../components/Pagina104';
-import { Pagina105 } from '../../components/Pagina105';
-import { Pagina106 } from '../../components/Pagina106';
-import { Pagina107 } from '../../components/Pagina107';
-import { Pagina108 } from '../../components/Pagina108';
-import { Pagina109 } from '../../components/Pagina109';
-import { Pagina110 } from '../../components/Pagina110'; */
+import { Page60 } from '../../components/Page60';
+import { Page61 } from '../../components/Page61';
+import { Page62 } from '../../components/Page62';
+import { Page63 } from '../../components/Page63';
+import { Page64 } from '../../components/Page64';
+import { Page65 } from '../../components/Page65';
+import { Page66 } from '../../components/Page66';
+import { Page67 } from '../../components/Page67';
+import { Page68 } from '../../components/Page68';
+import { Page69 } from '../../components/Page69';
+import { Page70 } from '../../components/Page70';
+import { Page71 } from '../../components/Page71';
+import { Page72 } from '../../components/Page72';
+import { Page73 } from '../../components/Page73';
+import { Page74 } from '../../components/Page74';
+import { Page75 } from '../../components/Page75';
+import { Page76 } from '../../components/Page76';
+import { Page77 } from '../../components/Page77';
+import { Page78 } from '../../components/Page78';
+import { Page79 } from '../../components/Page79';
+import { Page80 } from '../../components/Page80';
+import { Page81 } from '../../components/Page81';
+import { Page82 } from '../../components/Page82';
+import { Page83 } from '../../components/Page83';
+import { Page84 } from '../../components/Page84';
+import { Page85 } from '../../components/Page85';
+import { Page86 } from '../../components/Page86';
+import { Page87 } from '../../components/Page87';
+import { Page88 } from '../../components/Page88';
+import { Page89 } from '../../components/Page89';
+import { Page90 } from '../../components/Page90';
+import { Page91 } from '../../components/Page91';
+import { Page92 } from '../../components/Page92';
+import { Page93 } from '../../components/Page93';
+import { Page94 } from '../../components/Page94';
+import { Page95 } from '../../components/Page95';
+import { Page96 } from '../../components/Page96';
+import { Page97 } from '../../components/Page97';
+import { Page98 } from '../../components/Page98';
+import { Page99 } from '../../components/Page99';
+import { Page100 } from '../../components/Page100';
+import { Page101 } from '../../components/Page101';
+import { Page102 } from '../../components/Page102';
+import { Page103 } from '../../components/Page103';
+import { Page104 } from '../../components/Page104';
+import { Page105 } from '../../components/Page105';
+import { Page106 } from '../../components/Page106';
+import { Page107 } from '../../components/Page107';
+import { Page108 } from '../../components/Page108';
+import { Page109 } from '../../components/Page109';
+import { Page110 } from '../../components/Page110'; 
 
 export const Home = () => {
   return (
@@ -119,46 +119,46 @@ export const Home = () => {
       <div className='Home__Container'> 
         <Page01 />
           <Baseboard />
-{/*         <Pagina02 />
-          <Rodape />
- */}    <Page03 />
+        <Page02 />
+          <Baseboard />
+        <Page03 />
           <Baseboard />   
         <Page04 />
           <Baseboard /> 
-        {/* <Page05 />
-          <Baseboard /> */}
+        <Page05 />
+          <Baseboard />
         <Page06 />
           <Baseboard />              
         <Page07 />
           <Baseboard />          
-        {/* <Page08 />
-          <Baseboard /> */}
+        <Page08 />
+          <Baseboard /> 
         <Page09 />
           <Baseboard />
         <Page10 />
           <Baseboard />
         <Page11 />
           <Baseboard />
-        {/* <Page12 />
-          <Baseboard /> */}
-        {/* <Page13 />
-          <Baseboard /> */}
-{/*         <Pagina14 />
-          <Rodape />
-        <Pagina15 />
-          <Rodape />
-        <Pagina16 />
-          <Rodape />
-        <Pagina17 />                       
-          <Rodape /> 
-        <Pagina18 />                       
-          <Rodape />                       
- */}        <Page19 />                       
+        <Page12 />
+          <Baseboard /> 
+        <Page13 />
+          <Baseboard />
+         <Page14 />
+          <Baseboard />
+        <Page15 />
+          <Baseboard />
+        <Page16 />
+          <Baseboard />
+        <Page17 />                       
+          <Baseboard />
+        <Page18 />                       
+          <Baseboard />                        
+        <Page19 />                       
           <Baseboard />                       
-{/*         <Pagina20 />                       
-          <Rodape />     
-        <Pagina21 />                       
-          <Rodape /> */}
+        <Page20 />                       
+          <Baseboard />     
+        <Page21 />                       
+          <Baseboard /> 
         <Page22 />                       
           <Baseboard />
         <Page23 />                       
@@ -236,107 +236,107 @@ export const Home = () => {
         <Page59 />                       
           <Baseboard />
         <Page60 />                       
-          <Baseboard />{/*
-        <Pagina61 />                       
-          <Rodape />
-        <Pagina62 />                       
-          <Rodape />
-        <Pagina63 />                       
-          <Rodape />
-        <Pagina64 />                       
-          <Rodape />
-        <Pagina65 />                       
-          <Rodape />
-        <Pagina66 />                       
-          <Rodape />
-        <Pagina67 />                       
-          <Rodape />
-        <Pagina68 />                       
-          <Rodape />
-        <Pagina69 />                       
-          <Rodape />
-        <Pagina70 />                       
-          <Rodape />
-        <Pagina71 />                       
-          <Rodape />
-        <Pagina72 />                       
-          <Rodape />
-        <Pagina73 />                       
-          <Rodape />
-        <Pagina74 />                       
-          <Rodape />
-        <Pagina75 />                       
-          <Rodape />
-        <Pagina76 />                       
-          <Rodape />
-        <Pagina77 />                       
-          <Rodape />
-        <Pagina78 />                       
-          <Rodape />
-        <Pagina79 />                       
-          <Rodape />
-        <Pagina80 />                       
-          <Rodape />
-        <Pagina81 />                       
-          <Rodape />
-        <Pagina82 />                       
-          <Rodape />
-        <Pagina83 />                       
-          <Rodape />
-        <Pagina84 />                       
-          <Rodape />
-        <Pagina85 />                       
-          <Rodape />
-        <Pagina86 />                       
-          <Rodape />
-        <Pagina87 />                       
-          <Rodape />
-        <Pagina88 />                       
-          <Rodape />
-        <Pagina89 />                       
-          <Rodape />
-        <Pagina90 />                       
-          <Rodape />
-        <Pagina91 />                       
-          <Rodape />
-        <Pagina92 />                       
-          <Rodape />
-        <Pagina93 />                       
-          <Rodape />
-        <Pagina94 />                       
-          <Rodape />
-        <Pagina95 />                       
-          <Rodape />
-        <Pagina96 />                       
-          <Rodape />
-        <Pagina97 />                       
-          <Rodape />
-        <Pagina98 />                       
-          <Rodape />
-        <Pagina99 />                       
-          <Rodape />
-        <Pagina100 />                       
-          <Rodape />
-        <Pagina101 />                       
-          <Rodape />
-        <Pagina102 />                       
-          <Rodape />
-        <Pagina103 />                       
-          <Rodape />
-        <Pagina104 />                       
-          <Rodape />
-        <Pagina105 />                       
-          <Rodape />
-        <Pagina106 />                       
-          <Rodape />
-        <Pagina107 />                       
-          <Rodape />
-        <Pagina108 />                       
-          <Rodape />
-        <Pagina109 />                       
-          <Rodape />
-        <Pagina110 />                       
-          <Rodape /> */}
+          <Baseboard />
+        <Page61 />                       
+          <Baseboard />
+        <Page62 />                       
+          <Baseboard />
+        <Page63 />                       
+          <Baseboard />
+        <Page64 />                       
+          <Baseboard />
+        <Page65 />                       
+          <Baseboard />
+        <Page66 />                       
+          <Baseboard />
+        <Page67 />                       
+          <Baseboard />
+        <Page68 />                       
+          <Baseboard />
+        <Page69 />                       
+          <Baseboard />
+        <Page70 />                       
+          <Baseboard />
+        <Page71 />                       
+          <Baseboard />
+        <Page72 />                       
+          <Baseboard />
+        <Page73 />                       
+          <Baseboard />
+        <Page74 />                       
+          <Baseboard />
+        <Page75 />                       
+          <Baseboard />
+        <Page76 />                       
+          <Baseboard />
+        <Page77 />                       
+          <Baseboard />
+        <Page78 />                       
+          <Baseboard />
+        <Page79 />                       
+          <Baseboard />
+        <Page80 />                       
+          <Baseboard />
+        <Page81 />                       
+          <Baseboard />
+        <Page82 />                       
+          <Baseboard />
+        <Page83 />                       
+          <Baseboard />
+        <Page84 />                       
+          <Baseboard />
+        <Page85 />                       
+          <Baseboard />
+        <Page86 />                       
+          <Baseboard />
+        <Page87 />                       
+          <Baseboard />
+        <Page88 />                       
+          <Baseboard />
+        <Page89 />                       
+          <Baseboard />
+        <Page90 />                       
+          <Baseboard />
+        <Page91 />                       
+          <Baseboard />
+        <Page92 />                       
+          <Baseboard />
+        <Page93 />                       
+          <Baseboard />
+        <Page94 />                       
+          <Baseboard />
+        <Page95 />                       
+          <Baseboard />
+        <Page96 />                       
+          <Baseboard />
+        <Page97 />                       
+          <Baseboard />
+        <Page98 />                       
+          <Baseboard />
+        <Page99 />                       
+          <Baseboard />
+        <Page100 />                       
+          <Baseboard />
+        <Page101 />                       
+          <Baseboard />
+        <Page102 />                       
+          <Baseboard />
+        <Page103 />                       
+          <Baseboard />
+        <Page104 />                       
+          <Baseboard />
+        <Page105 />                       
+          <Baseboard />
+        <Page106 />                       
+          <Baseboard />
+        <Page107 />                       
+          <Baseboard />
+        <Page108 />                       
+          <Baseboard />
+        <Page109 />                       
+          <Baseboard />
+        <Page110 />                       
+          <Baseboard /> 
       </div>
     </div> 
    );

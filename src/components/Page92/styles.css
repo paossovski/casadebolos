@@ -1,0 +1,13 @@
+.Page92__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page92__Text--Border {
+  border-bottom: 2px solid black;
+}
+
+.Page92__Text--Font {
+  font-size: var(--font-size-16);
+  background-color: yellow;
+}

@@ -1,0 +1,9 @@
+.Page85__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page85__Text--Align {
+  text-align: center;
+  font-size: 18px;
+}

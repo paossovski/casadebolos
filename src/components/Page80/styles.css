@@ -1,0 +1,12 @@
+.Page80__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page80__Text--Align{
+  text-align: center;
+}
+
+.Page80__Text--Font {
+  font-size: var(--font-size-18);
+}

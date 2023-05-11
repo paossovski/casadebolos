@@ -1,0 +1,29 @@
+.Page61__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page61__Img--A {
+  width: 330px;
+  align-self: center;
+}
+
+.Page61__Img--B {
+  width: 560px;
+  height: 130px;
+  align-self: center;
+}
+
+@media screen and (max-width: 480px) {
+  .Page61__Img--A {
+    width: 310px;
+    height: 260px;
+    align-self: center;
+  }
+  
+  .Page61__Img--B {
+    width: 310px;
+    height: 100px;
+    align-self: center;
+  }  
+}

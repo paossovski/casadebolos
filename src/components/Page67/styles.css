@@ -1,0 +1,16 @@
+.Pag67__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page67__Text--Align {
+  text-align: center;
+}
+
+.Page67__Text--Font {
+  font-size: var(--font-size-20);
+}
+
+.Page67__Text--Size {
+  font-size: var(--font-size-16);
+}

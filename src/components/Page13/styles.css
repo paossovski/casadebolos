@@ -9,10 +9,6 @@
   font-size: var(--font-size-20);
 } 
 
-p, i {
-  background-color: var(--white-color);
-}
-
 @media  screen and (max-width: 480px) {
   .Page13__Container {
     height: 700px;

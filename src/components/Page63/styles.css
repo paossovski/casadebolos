@@ -1,0 +1,12 @@
+.Page63__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page63__Text--Border {
+  border-bottom: 2px solid black;
+}
+
+.Page63__Text--Background {
+  background-color: yellow;
+}
