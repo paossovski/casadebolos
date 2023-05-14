@@ -1,18 +1,18 @@
 import '../../global_styles.css';
 import './styles.css';
 
-import cdb99 from '../../images/cdb_99.png';
+import cdb108 from '../../images/cdb_108.png';
 
 import { Numbering } from '../Numbering';
 
-export const Page110 = () => {
+export const Page119 = () => {
   return(
     <div className='Page Page__Container Page__Margins Page__Mobile'>
-      <div className='Page110__Container'>
-        <img className='Page110__Img' src={cdb99} alt='' />
+      <div className='Page119__Container'>
+        <img className='Page119__Img' src={cdb108} alt='' />
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={110} />
+        <Numbering num={119} />
       </div>
     </div>
   );

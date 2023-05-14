@@ -1,14 +1,15 @@
-.Page110__Container {
+.Page118__Container {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
-.Page110__Img {
+.Page118__Img {
   width: 580px;
 }
 
 @media screen and (max-width: 480px) {
-  .Page110__Img {
+  .Page118__Img {
     width: 310px;
   }
 }
