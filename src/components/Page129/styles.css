@@ -1,0 +1,26 @@
+.Page129__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page129__Title__Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.Page129__Content__Container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.Page129__Title {
+  font-family: var(--font-family-tahoma);
+  font-size: var(--font-size-22);
+}
+
+b {
+  font-size: var(--font-size-16);
+}

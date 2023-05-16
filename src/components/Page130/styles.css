@@ -1,0 +1,10 @@
+.Page130__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page130__Content__Container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
