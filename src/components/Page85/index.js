@@ -2,10 +2,14 @@ import '../../global_styles.css';
 import './styles.css';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page85 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page85' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page85__Container'>
         <p className='Page__Text Page__Line--Height'>
           No entanto tivemos um problema de uso indevido do benefício e ele foi suspenso, sob condições de ser revisto após ato solicitado em reunião por diversas ocasiões. O funcionário pode comprar bolos e o mesmo será descontado na folha de pagamento.
@@ -27,7 +31,12 @@ export const Page85 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={85} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={85} />
+        </div>
       </div>
     </div>
   );

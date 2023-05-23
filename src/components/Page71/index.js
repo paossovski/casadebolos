@@ -4,10 +4,14 @@ import './styles.css';
 import cdb69 from '../../images/cdb_69.jpg';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page71 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page71' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page71__Container'>
         <h1 className='Page__Text Page71__Text--Align'>
           SOBRE NOSSOS BOLOS
@@ -18,7 +22,12 @@ export const Page71 = () => {
         <img className='Page71__Img' src={cdb69} alt="" />
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={71} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={71} />
+        </div>
       </div>
     </div>
   );

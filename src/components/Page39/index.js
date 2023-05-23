@@ -2,10 +2,14 @@ import '../../global_styles.css';
 import './styles.css';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page39 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page39' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page39__Container'>
         <p className='Page__Text Page__Line--Height'>
           o caixa, faz as anotações, liga o som, as luzes, coloca os banners, verifica as lixeiras, limpa a calçada, abre bem as grades. Após a abertura da loja, a preocupação da pessoa responsável pelo atendimento é deixar o balcão organizado, reposto e com variedades, cuidar do caixa, realizar sangrias, anotar comandas, e no caso de ter que limpar a área de atendimento <b>TEM QUE CHAMAR</b> a pessoa responsavel pela limpeza, é esta pessoa que mantem a loja limpa ao lingo do dia, ou seja, não tenha medo de chamar. 
@@ -22,7 +26,12 @@ export const Page39 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={39} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={39} />
+        </div>
       </div>
     </div>
   );

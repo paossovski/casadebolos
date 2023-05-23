@@ -2,10 +2,14 @@ import '../../global_styles.css';
 import './styles.css';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page108 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page108' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page108__Container'>
         <p className='Page__Text Page__Line--Height'>
           Olá tudo bem?  Primeiramente, nos perdoe pelo ocorrido. Não foi intencional e nem para lhe prejudicar. Todas nossas entregas são teceirizadas, pelo Ifood, vamos verificar o que houve e já te informo.  Sugestão cartão fidelidade que já existe no cardápio Recebemos seu feedback da troca de fidelidade, e na sugestão foi escrito uma opção que oferecemos no cardápio. Você pode encomendar, retirar no dia e horário de sua preferência, assim, produziremos especialmente para você provar e deliciar-se!
@@ -30,7 +34,12 @@ export const Page108 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={108} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={108} />
+        </div>
       </div>
     </div>
   );

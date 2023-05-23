@@ -6,10 +6,14 @@ import cdb123 from '../../images/cdb_123.png';
 import cdb124 from '../../images/cdb_124.png';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page126 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page126' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page126__Container'>
         <div className='Page126__Title__Container'>
           <h1 className='Page__Text Page126__Text--Font'>Fotos</h1>
@@ -40,7 +44,12 @@ export const Page126 = () => {
         </div>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={126} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={126} />
+        </div>
       </div>
     </div>
   );

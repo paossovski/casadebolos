@@ -2,10 +2,14 @@ import '../../global_styles.css';
 import './styles.css';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page106 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page106' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page106__Container'>
         <p className='Page__Text Page__Line--Height'>
           <b>O que fazer caso uma mercadoria chegue em minha casa danificada ou imprópria para consumo?</b><br/><br/>
@@ -31,7 +35,12 @@ export const Page106 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={106} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={106} />
+        </div>
       </div>
     </div>
   );

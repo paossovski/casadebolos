@@ -4,10 +4,14 @@ import './styles.css';
 import cdb92 from '../../images/cdb_92.png';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page14 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page14' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page14__Container'>
         <h1 className='Page__Text Page__Title Page__Line--Height'>
           COMO EXPLICAR PARA NOSSOS CLIENTES A LOCALIZAÇÃO     DE NOSSAS LOJAS EM FLORIANÓPOLIS E REGIÃO?
@@ -23,7 +27,12 @@ export const Page14 = () => {
         <img className='Page14__Img' src={cdb92} alt='' />
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={14} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={14} />
+        </div>
       </div>
     </div>
   );

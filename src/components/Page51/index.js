@@ -5,10 +5,14 @@ import cdb52 from '../../images/cdb_52.jpg';
 import cdb53 from '../../images/cdb_53.jpg';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page51 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page51' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page51__Container'>
         <img className='Page51__Img--A' src={cdb52} alt="" /><br/><br/>
         <img className='Page51__Img--B' src={cdb53} alt="" /><br/><br/>
@@ -22,7 +26,12 @@ export const Page51 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={51} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={51} />
+        </div>
       </div>
     </div>
   );

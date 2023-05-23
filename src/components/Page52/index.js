@@ -4,10 +4,14 @@ import './styles.css';
 import cdb54 from '../../images/cdb_54.jpg';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page52 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page52' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page52__Container'>
         <p className='Page__Text Page__Line--Height'>
           <b>PARCERIA UNIMED:</b> A promoção ainda existe, apenas tiramos a plaquinha, pois a franquia não nos permite deixar exposto outra marca no balcão. Funcionários da Unimed Grande Florianópolis, tem direito a 10% de descontos em compras feitas diretamente no balcão, mediante apresentação da carteirinha e preenchendo o cadastro. Esse desconto não é válido via delivery.
@@ -30,7 +34,12 @@ export const Page52 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={52} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={52} />
+        </div>
       </div>
     </div>
   );

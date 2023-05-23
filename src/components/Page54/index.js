@@ -6,10 +6,14 @@ import cdb56 from '../../images/cdb_56.jpg';
 import cdb57 from '../../images/cdb_57.jpg';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page54 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page54' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page54__Container'>
         <p className='Page__Text Page__Line--Height'>
           <b>INMETRO:</b> É o órgão do governo que fiscaliza balanças e estes fiscais aparecem de surpresa nas lojas, e sempre estão identificados com crachá. Retirar <b>IMEDIATAMENTE</b> das balanças pequenas (brancas) e esconder. Elas são proibidas. Colocar em uso a balança maior com o selo do INMETRO. A multa é caríssima caso estas balanças brancas sejam pegas na área de produção. Se puder evitar de usar, agradecemos.
@@ -27,7 +31,12 @@ export const Page54 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={54} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={54} />
+        </div>
       </div>
     </div>
   );

@@ -4,10 +4,14 @@ import './styles.css';
 import cdb75 from '../../images/cdb_75.jpg';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page77 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page77' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page77__Container'>
         <p className='Page__Text Page__Line--Height'>
           <b>●	AVALIAR NO GOOGLE:</b> Orientamos e fazemos bom grado que o funcionário avalie de forma positiva sua empresa/loja e todas as demais no google. É simples e é positivo para a empresa e para entendermos que o funcionário está bem em estar empregado na Casa de Bolos.
@@ -25,7 +29,12 @@ export const Page77 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={77} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={77} />
+        </div>
       </div>
     </div>
   );

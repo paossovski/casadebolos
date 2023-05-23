@@ -2,10 +2,14 @@ import '../../global_styles.css';
 import './styles.css';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page107 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page107' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page107__Container'>
         <p className='Page__Text Page__Line--Height'>
           Problema comprovado – Nos perdoe pelo ocorrido, de maneira alguma desejávamos lhe frustrar, ou chatear. Esperamos que possa nos perdoar! Pode ter certeza que não ocorrerá novamente esta situação, redobraremos cuidados e atenção! 
@@ -33,7 +37,12 @@ export const Page107 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={107} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={107} />
+        </div>
       </div>
     </div>
   );

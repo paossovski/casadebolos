@@ -4,10 +4,14 @@ import './styles.css';
 import cdb32 from '../../images/cdb_32.jpg';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page38 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page38' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page38__Container'>
         <img className='Page38__Img' src={cdb32} alt="" /><br/><br/>
         <h1 className='Page__Text Page38__Text--Align'>
@@ -28,7 +32,12 @@ export const Page38 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={38} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={38} />
+        </div>
       </div>
     </div>
   );

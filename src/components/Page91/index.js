@@ -2,10 +2,14 @@ import '../../global_styles.css';
 import './styles.css';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page91 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page91' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page91__Container'>
         <p className='Page__Text Page__Line--Height'>
           Informe também os produtos que foram comprados, para que a emissão da nota saia de acordo com a compra do cliente, essa emissão de notas, somente a CDA tem autorização para emitir, nessa caso a loja não deverá emitir o cupom de venda no caixa, para que não seja duplicada a venda e impostos.
@@ -15,7 +19,12 @@ export const Page91 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={91} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={91} />
+        </div>
       </div>
     </div>
   );

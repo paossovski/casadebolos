@@ -2,10 +2,14 @@ import '../../global_styles.css';
 import './styles.css';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page69 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page69' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page69__Container'>
         <p className='Page__Text Page69__Text--Align'>
           <span className='Page69__Text--Border'>RH/ADMINISTRATIVO</span>
@@ -41,7 +45,12 @@ export const Page69 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={69} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={69} />
+        </div>
       </div>
     </div>
   );

@@ -2,10 +2,14 @@ import '../../global_styles.css';
 import './styles.css';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page67 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page67' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Pag67__Container'>
         <p className='Page__Text Page__Line--Height'>
           <b>Uso Uber:</b> Em casos de logística de bolos de uma loja para outra, NUNCA deixar de registrar a despesa no sistema. Lembrando que a loja que está recebendo os bolos é que paga a conta Ex: C1 mandou bolos para o C3 – a loja do C3 que arca com essa despesa e lança no sistema Obs: sempre pedir uber pelo celular da loja, onde já temos um conta registrada.
@@ -36,7 +40,12 @@ export const Page67 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={67} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={67} />
+        </div>
       </div>
     </div>
   );

@@ -2,10 +2,14 @@ import '../../global_styles.css';
 import './styles.css';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page109 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page109' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page109__Container'>
         <p className='Page__Text Page__Line--Height'>
           <span className='Page109__Text--Border'>O que fazem com os bolos no final do dia?</span><br/><br/>
@@ -22,7 +26,12 @@ export const Page109 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={109} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={109} />
+        </div>
       </div>
     </div>
   );

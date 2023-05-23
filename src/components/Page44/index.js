@@ -9,10 +9,14 @@ import cdb41 from '../../images/cdb_41.jpg';
 import cdb42 from '../../images/cdb_42.jpg';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page44 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page44' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page44__Container'>
         <p className='Page__Text Page__Line--Height'>
           <b>VENDA DE VELAS, BOLOBAG, CAIXA PRESENTE E EMBALAGENS:</b> Estimular <b>SEMPRE</b> a venda de itens complementares, aumenta nosso ticket médio. Sempre que for vender, anotar na planilha de produção diária. Especificar o que foi vendido. E sempre que necessário, repor esses itens na área de atendimento.
@@ -29,7 +33,12 @@ export const Page44 = () => {
         </div>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={44} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={44} />
+        </div>
       </div>
     </div>
   );

@@ -2,10 +2,14 @@ import '../../global_styles.css';
 import './styles.css';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page80 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page80' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page80__Container'>
         <p className='Page__Text Page__Line--Height'>
           <b>ENCOMENDAS ESPECIAIS:</b> Encomendas especiais, compras maiores, descontos especiais, condições especiais  para passar o telefone da Central de Atendimento, e a supervisão avaliará a possibilidade de desconto.<br/><br/> <b>Obs: Não há permissão de descontos, sem que haja autorização da supervisão.</b>
@@ -24,7 +28,12 @@ export const Page80 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={80} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={80} />
+        </div>
       </div>
     </div>
   );

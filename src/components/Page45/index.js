@@ -4,10 +4,14 @@ import './styles.css';
 import cdb43 from '../../images/cdb_43.jpg';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page45 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page45' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page45__Container'>
         <p className='Page__Text Page__Line--Height'>
           <b>ATENDENTES - FIQUEM NA ÁREA DE ATENDIMENTO – “PELO AMOR DE DEUS”:
@@ -16,7 +20,12 @@ export const Page45 = () => {
         <img className='Page45__Img' src={cdb43} alt="" />
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={45} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={45} />
+        </div>
       </div>
     </div>
   );

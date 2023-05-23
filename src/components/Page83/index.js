@@ -4,10 +4,14 @@ import './styles.css';
 import cdb83 from '../../images/cdb_83.jpg';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page83 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page83' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page83__Container'>
         <p className='Page__Text Page__Line--Height'>
           Obs: Não perca seu cadeado - é lei, todos têm e devem cuidar deles. Perdeu vai pagar um novo. R$10,00.
@@ -19,7 +23,12 @@ export const Page83 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={83} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={83} />
+        </div>
       </div>
     </div>
   );

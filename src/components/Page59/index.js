@@ -2,10 +2,14 @@ import '../../global_styles.css';
 import './styles.css';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page59 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page59' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page59__Container'>
         <p className='Page__Text Page__Line--Height'>
           Curitiba devido a sua distância das demais lojas, age de forma mais independente e não consta na nossa Central de Atendimento e nem ramal específico. Mas sempre que for necessário, colaboradoras entrarão em contato a supervisão (alocada em Florianópolis) para sanar dúvidas e orientá-las de como agir com as situações inusitadas ou apenas questionamentos simples mesmo.
@@ -30,7 +34,12 @@ export const Page59 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={59} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={59} />
+        </div>
       </div>
     </div>
   );

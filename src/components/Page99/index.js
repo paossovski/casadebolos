@@ -2,10 +2,14 @@ import '../../global_styles.css';
 import './styles.css';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page99 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page99' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page99__Container'>
         <p className='Page__Text Page__Line--Height'>
           <span className='Page99__Text--Border'>Nos dias de muito frio os bolos ficam gelados?</span><br/><br/>Os bolos saem quentinhos do forno, após, mantemos em temperatura ambiente, mantendo saborosos e no nosso padrão de qualidade. Se mantivermos eles aquecidos constantemente, ficarão ressecados e perderemos a nossa alta qualidade.
@@ -35,7 +39,12 @@ export const Page99 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={99} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={99} />
+        </div>
       </div>
     </div>
   );

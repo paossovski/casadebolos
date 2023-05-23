@@ -2,10 +2,14 @@ import '../../global_styles.css';
 import './styles.css';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page57 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page57' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page57__Container'>
         <p className='Page__Text Page57__Text--Align'>
           <b className='Page57__Text--Size'>COMUNICAÇÃO ENTRE LOJAS E COM CLIENTE</b>
@@ -67,7 +71,12 @@ export const Page57 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={57} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={57} />
+        </div>
       </div>
     </div>
   );

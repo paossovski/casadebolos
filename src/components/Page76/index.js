@@ -4,10 +4,14 @@ import './styles.css';
 import cdb74 from '../../images/cdb_74.jpg';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page76 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page76' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page76__Container'>
         <p className='Page__Text'>
           Coloque o papel no para-brisa do carro quando:
@@ -29,7 +33,12 @@ export const Page76 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={76} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={76} />
+        </div>
       </div>
     </div>
   );

@@ -2,11 +2,16 @@ import '../../global_styles.css';
 import './styles.css';
 
 import cdb02 from '../../images/cdb_02.png';
+
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page04 = () => {
   return(
-    <div className='Page Page__Mobile Page__Container Page__Margins'>
+    <div 
+      id='Page04' 
+      className='Page Page__Mobile Page__Container Page__Margins'
+    >
       <div className='Page04__Img__Container'>
         <img className='Page04__Img' src={cdb02} alt="" />
       </div><br/><br/>
@@ -32,7 +37,12 @@ export const Page04 = () => {
         </div>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={4} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={4} />
+        </div>
       </div>
     </div>
   );

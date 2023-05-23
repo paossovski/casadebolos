@@ -2,10 +2,14 @@ import '../../global_styles.css';
 import './styles.css';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page95 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page95' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page95__Container'>
         <p className='Page__Text Page__Line--Height'>
           O bolo de Morango é feito com massa de pão de ló molhadinha, recheio e cobertura com o Creme Vó Sônia – base de creme de leite e leite condensado. No recheio é usado o mesmo creme com morangos cozidos – consistência de geleia. E a cobertura tem  cinco morangos inteiros para decorar; O bolo de Nozes é com massa de pão de ló molhadinha, recheio e cobertura com o Creme Vó Sônia – base de creme de leite e leite condensado e nozes picadas; O bolo de Leite Ninho é com massa de pão de ló molhadinha, recheio e cobertura com o creme (consistência de mousse) de Leite Ninho, por fim aplicado o Leite Ninho em pó polvilhado em cima; O bolo de Churros é com massa de churros assado, com recheio e cobertura de doce de leite decorando. O bolo ganache de chocolate com morangos, é com massa de chocolate, molhadinho, com ganache de chocolate ao meio junto com morangos in natura picado, confeitado com ganache de chocolate e raspas de chocolate e morangos inteiros para decorar. O bolo ganache de chocolate com beijinho, é com massa de chocolate, molhadinho, com recheio de beijinho ao meio, confeitado com ganache de chocolate, coco ralado e beijinhos para decorar. 
@@ -28,7 +32,12 @@ export const Page95 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={95} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={95} />
+        </div>
       </div>
     </div>
   );

@@ -5,10 +5,14 @@ import cdb65 from '../../images/cdb_65.jpg';
 import cdb66 from '../../images/cdb_66.jpg';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page64 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page64' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page64__Container'>
         <img className='Page64__Img' src={cdb65} alt="" /><br/><br/>
         <p className='Page__Text Page__Line--Height'>
@@ -27,7 +31,12 @@ export const Page64 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={64} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={64} />
+        </div>
       </div>
     </div>
   );

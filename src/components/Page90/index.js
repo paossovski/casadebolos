@@ -2,10 +2,14 @@ import '../../global_styles.css';
 import './styles.css';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page90 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page90' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page90__Container'>
         <p className='Page__Text Page__Line--Height'>
           Informar aos clientes de balcão sobre o entregas (sugestões, dúvidas, críticas ou elogios) passem o número da Central de Atendimento e Delivery: (48) 3091-5070 e (48) 9 9180-5070. Ou oriente em apontar o celular para o QRCode (adesivo colado no balcão de bolos ou crachá dos funcionários), abrirá automaticamente uma conversa com a Central de Atendimento.
@@ -33,7 +37,12 @@ export const Page90 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={90} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={90} />
+        </div>
       </div>
     </div>
   );

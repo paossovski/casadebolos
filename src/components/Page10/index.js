@@ -2,11 +2,16 @@ import '../../global_styles.css';
 import './styles.css';
 
 import cdb05 from '../../images/cdb_05.jpg';
+
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page10 = () => {
   return(
-    <div className='Page Page__Mobile Page__Container Page__Margins'>
+    <div 
+      id='Page10' 
+      className='Page Page__Mobile Page__Container Page__Margins'
+    >
       <div>
         <p className='Page10__Title'>
           <i className='Page__Text'>- Tabela organograma para melhor  visualização e entendimento.</i>
@@ -27,7 +32,12 @@ export const Page10 = () => {
         </div>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={10} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={10} />
+        </div>
       </div>
     </div>
   );

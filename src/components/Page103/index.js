@@ -2,10 +2,14 @@ import '../../global_styles.css';
 import './styles.css';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page103 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page103' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page103__Container'>
         <p className='Page__Text Page__Line--Height'>
           E na cobertura usamos o mesmo creme e coco ralado.  Esse tipo de bolo é mais frágil, pois tem chance maior de quebrar ou rachar. Aconselhamos retirar na loja de sua preferência. 
@@ -47,7 +51,12 @@ export const Page103 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={103} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={103} />
+        </div>
       </div>
     </div>
   );

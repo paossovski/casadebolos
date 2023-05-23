@@ -3,11 +3,16 @@ import './styles.css';
 
 import cdb06 from '../../images/cdb_06.jpg';
 import cdb07 from '../../images/cdb_07.jpg';
+
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page11 = () => {
   return(
-    <div className='Page Page__Mobile Page__Container Page__Margins'>
+    <div 
+      id='Page11' 
+      className='Page Page__Mobile Page__Container Page__Margins'
+    >
       <div>
         <p className='Page__Text Page11__Text'>
           É a base informativa de clientes (dados cadastrais como nome, telefone, endereço, histórico de pedidos, delivery, negociação de empresas e grandes compras, sugestões e críticas realizadas por clientes) para todas as lojas. Tem equipamentos que monitoram as ligações de clientes, câmeras de monitoramento que ajudam a garantir processos e a qualidade dos produtos, dashboard com acompanhamento de respostas, perguntas e as respostas são atualizadas conforme a necessidade.
@@ -25,7 +30,12 @@ export const Page11 = () => {
         </div>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={11} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={11} />
+        </div>
       </div>
     </div>
   );

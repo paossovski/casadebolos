@@ -4,10 +4,14 @@ import './styles.css';
 import cdb70 from '../../images/cdb_70.jpg';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page72 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page72' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page72__Container'>
         <p className='Page__Text Page__Line--Height'>
           <b>GORDURA TRANS:</b> Nossos bolos não contêm gordura trans, na produção deles usamos produtos sem prejudicar a saúde. Produção de maneira mais natural possível. <b>PODE MENCIONAR AOS CLIENTES!</b>
@@ -27,7 +31,12 @@ export const Page72 = () => {
         <img className='Page72__Img' src={cdb70} alt="" />
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={72} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={72} />
+        </div>
       </div>
     </div>
   );

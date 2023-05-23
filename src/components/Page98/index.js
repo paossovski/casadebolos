@@ -2,10 +2,14 @@ import '../../global_styles.css';
 import './styles.css';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page98 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page98' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page98__Container'>
         <p className='Page__Text Page__Line--Height'>
           Não é feito a base de farinha de aipim, e sim aipim ralado, natural.  O bolo de <i>Fubá Cremoso</i> é uma delícia, molhadinho, cremoso com coco e o sabor suave da farinha de milho – é também conhecido como Manoel da Bahia. O nosso bolo <i>Mesclado</i> é bem tradicional, massa neutra com a de chocolate misturada. Sucesso com a criançada é uma boa opção para o café! Também conhecido como bolo mármore. O nosso bolo <i>Formigueiro</i> é bem tradicional e saboroso, massa branca e com granulado de chocolate distribuído. Sabor leve do chocolate e gostinho de infância!
@@ -27,7 +31,12 @@ export const Page98 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={98} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={98} />
+        </div>
       </div>
     </div>
   );

@@ -4,10 +4,14 @@ import './styles.css';
 import cdb134 from '../../images/cdb_134.png';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page134 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page134' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page134__Container'>
         <div>
           <p>
@@ -34,7 +38,12 @@ export const Page134 = () => {
         </div>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={134} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={134} />
+        </div>
       </div>
     </div>
   );

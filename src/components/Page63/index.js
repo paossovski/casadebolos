@@ -2,10 +2,14 @@ import '../../global_styles.css';
 import './styles.css';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page63 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page63' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page63__Container'>
         <p className='Page__Text Page__Line--Height'>
           Obs: <b className='Page63__Text--Border'>nunca mande bolos empilhados</b>, eles vão amaçar no máximo uma pilha de dois andares, se possível não coloque bolos em cima um do outro, caso chegue amassado em outra loja, sem condiçoes para a venda, a loja que estará mandando, que se reponsabilizará pela perda, devido a falta de cuidado.
@@ -32,7 +36,12 @@ export const Page63 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={63} alt="" />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={63} />
+        </div>
       </div>
     </div>
   );

@@ -5,10 +5,14 @@ import cdb62 from '../../images/cdb_62.jpg';
 import cdb63 from '../../images/cdb_63.jpg';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page61 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page61' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page61__Container'>
         <p className='Pgae__Text Page__Line--Height'>
           <b>BOLOS FORA DO PADRÃO, TEM UM ESPAÇO NA PRATELEIRA PARA SEPARAR.</b>
@@ -24,7 +28,12 @@ export const Page61 = () => {
         <img className='Page61__Img--B' src={cdb63} alt="" />
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={61} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={61} />
+        </div>
       </div>
     </div>
   );

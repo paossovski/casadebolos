@@ -5,10 +5,14 @@ import cdb44 from '../../images/cdb_44.jpg';
 import cdb45 from '../../images/cdb_45.png';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page46 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page46' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page46__Container'>
         <p className='Page__Text Page__Line--Height'>
           <b>COMANDAS DE PEDIDOS:</b> Muito importante preencher com as ocorrências Exemplos: não veio buscar; não aceitar encomenda sem pagamento antecipado; (apenas clientes problemáticos, bolos funcionais) ligamos e não atendeu; <b>TEMOS UM BANCO DE DADOS</b> e ''alimentamos'' essas informações. <b>SEMPRE</b> registre as comandas em sua loja, no sistema.
@@ -23,7 +27,12 @@ export const Page46 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={46} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={46} />
+        </div>
       </div>
     </div>
   );

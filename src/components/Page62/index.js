@@ -4,10 +4,14 @@ import './styles.css';
 import cdb64 from '../../images/cdb_64.jpg';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page62 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page62' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page62__Container'>
         <p className='Page__Text Page__Line--Height'>
           <b>PROBLEMAS COM BOLO</b><br/>
@@ -31,7 +35,12 @@ export const Page62 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={62} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={62} />
+        </div>
       </div>
     </div>
   );

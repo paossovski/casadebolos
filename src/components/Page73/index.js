@@ -4,10 +4,14 @@ import './styles.css';
 import cdb71 from '../../images/cdb_71.jpg';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page73 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page73' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page73__Container'>
         <p className='Page__Text Page__Line--Height'>
           Nunca falar nenhum ingrediente (marca e gramatura) de receitas e nem que a mesma massa faz mais de um tipo de bolo (Maçã com Castanha e Natal, Fubá com Laranja e Crocante...).
@@ -24,7 +28,12 @@ export const Page73 = () => {
         <img className='Page73__Img' src={cdb71} alt="" />
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={73} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={73} />
+        </div>
       </div>
     </div>
   );

@@ -2,10 +2,14 @@ import '../../global_styles.css';
 import './styles.css';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page94 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page94' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page94__Container'>
         <p className='Page__Text Page__Line--Height'>
           E a cobertura Cacau Funcional é 70% cacau, possui lactose devido ao derivado do leite utilizado, a manteiga.
@@ -36,7 +40,12 @@ export const Page94 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={94} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={94} />
+        </div>
       </div>
     </div>
   );

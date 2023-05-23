@@ -4,10 +4,14 @@ import './styles.css';
 import cdb36 from '../../images/cdb_36.jpg';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page43 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page43' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page43__Container'>
         <h1 className='Page__Text Page43__Text'>
           LAYOUT DE DISPONIBILIZAÇÃO DE BOLOS <br/> DENTRO DO BALCÃO
@@ -21,7 +25,12 @@ export const Page43 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={43} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={43} />
+        </div>
       </div>
     </div>
   );

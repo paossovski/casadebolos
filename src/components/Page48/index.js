@@ -2,10 +2,14 @@ import '../../global_styles.css';
 import './styles.css';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page48 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page48' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page48__Container'>
         <p className='Page__Text Page__Line--Height'>
           <b>SACOLAS PLÁSTICAS -</b> Temos, é a nossa principal sacola, mas parabenize quem evitar, não queremos utilizá-las mesmo.
@@ -35,7 +39,12 @@ export const Page48 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={48} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={48} />
+        </div>
       </div>
     </div>
   );

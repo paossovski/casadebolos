@@ -4,10 +4,14 @@ import './styles.css';
 import cdb68 from '../../images/cdb_68.jpg';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page66 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page66' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page66__Container'>
         <p className='Page__Text Page__Line--Height'>
           <b>COMPRAS SEMANAIS – DEPÓSITO LOJAS E INSUMOS COMPRAS DO CEASA:</b> Em baixa temporada (janeiro a abril) o Ceasa será feito uma vez por semana (TERÇA- FEIRA) e na alta temporada 2x na semana (TERÇA-FEIRA E SEXTA-FEIRA); sempre fazer o pedido para durar até a próxima compra. Pedido deve ser feito na planilha semanal de compras, no sábado até as 12h.
@@ -27,7 +31,12 @@ export const Page66 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={66} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={66} />
+        </div>
       </div>
     </div>
   );

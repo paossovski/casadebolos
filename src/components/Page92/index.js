@@ -2,10 +2,14 @@ import '../../global_styles.css';
 import './styles.css';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page92 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page92' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page92__Container'>
         <p className='Page__Text Page__Line--Height'>
           A <b className='Page92__Text--Border'>FAQ</b> sigla em inglês Frequently Asked Questions, conhecida também como <b>PERGUNTAS RESPONDIDAS FREQUENTEMENTE</b>, ou seja, o documento foi elaborado e construído em cima dos questionamentos de nossos clientes. E para conseguirmos melhorar e alinhar as lojas, segue a nossa abaixo. Facilitará a linguagem das lojas com os clientes, falarão sempre a mesma linguagem.
@@ -46,7 +50,12 @@ export const Page92 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={92} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={92} />
+        </div>
       </div>
     </div>
   );

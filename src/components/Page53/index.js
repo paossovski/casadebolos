@@ -2,10 +2,14 @@ import '../../global_styles.css';
 import './styles.css';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page53 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page53' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page53__Container'>
         <p className='Page__Text Page__Line--Height'>
         ao alto consumo de produtos gordurosos (ex: oléo de soja e margarina) o risco de entupimento na caixa de gordura é muito grande, jogando água quente todos os dias, evitamos esse entupimento. Por isso essa prática é uma obrigação.
@@ -37,7 +41,12 @@ export const Page53 = () => {
         </p>
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={53} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={53} />
+        </div>
       </div>
     </div>
   );

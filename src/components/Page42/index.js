@@ -4,10 +4,14 @@ import './styles.css';
 import cdb35 from '../../images/cdb_35.jpg';
 
 import { Numbering } from '../Numbering';
+import { Top } from '../Top';
 
 export const Page42 = () => {
   return(
-    <div className='Page Page__Container Page__Margins Page__Mobile'>
+    <div 
+      id='Page42' 
+      className='Page Page__Container Page__Margins Page__Mobile'
+    >
       <div className='Page42__Container'>
         <p className='Page__Text'>
           <b className='Page42__Text'>Entre 10h e 16h é importantíssimo ter o balcão bem completo.</b> 
@@ -22,7 +26,12 @@ export const Page42 = () => {
         <img className='Page42__Img' src={cdb35} alt="" />
       </div>
       <div className='Pagination__Container'>
-        <Numbering num={42} />
+        <div className='Page__Up__Container'>
+          <Top/>
+        </div>
+        <div className='Page_Numbering_Container'>
+          <Numbering num={42} />
+        </div>
       </div>
     </div>
   );
