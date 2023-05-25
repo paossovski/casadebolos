@@ -28,8 +28,15 @@
   }  
   
   .Page05__Img {
-    width: 310px;
+    width: 350px;
+    height: 260px;
     margin-top: 10px;
   } 
+
+  .Page05__Img__Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 

@@ -18,7 +18,7 @@ import { Page11 } from '../../components/Page11';
 import { Page12 } from '../../components/Page12';
 import { Page13 } from '../../components/Page13'; 
 import { Page14 } from '../../components/Page14';
-import { Page14Map}  from '../../components/Page14Map';
+/* import { Page14Map}  from '../../components/Page14Map'; */
 import { Page15 } from '../../components/Page15';
 import { Page16 } from '../../components/Page16';
 import { Page17 } from '../../components/Page17';
@@ -179,8 +179,8 @@ export const Home = () => {
           <Baseboard />
          <Page14 />
           <Baseboard />
-        <Page14Map />
-          <Baseboard />          
+{/*         <Page14Map />
+          <Baseboard />           */}
         <Page15 />
           <Baseboard />
         <Page16 />

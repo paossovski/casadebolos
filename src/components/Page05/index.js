@@ -16,7 +16,7 @@ export const Page05 = () => {
     >
       <p className='Page05__Text Page__Text'>Nossa História</p>
       <div className='Page05__Container'>
-        <div>
+        <div className='Page05__Img__Container'>
           <img className='Page05__Img' src={cdb03} alt="" />
         </div>
         <div>
