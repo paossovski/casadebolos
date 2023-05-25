@@ -24,4 +24,9 @@
   .Page10__Container {
     height: 700px;
   }
+
+  .Page10__Img {
+    width: 360px;
+    height: 350px;
+  }
 }

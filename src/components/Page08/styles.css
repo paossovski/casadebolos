@@ -6,7 +6,9 @@
 }
 
 .Page08__Img__Container {
-  width: auto;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
   height: 350px;
 }
 
@@ -28,10 +30,7 @@
   .Page08__Container {
     flex-direction: column;
     margin-top: 0;
-  }
-
-  .Page08__Img__Container {
-    width: auto;
+    align-items: center;
   }
 
   .Page08__Text--Margins {
@@ -41,5 +40,10 @@
 
   .Page08__Text--Italic {
     margin-left: 0;
+  }
+
+  .Page08__Img {
+    width: 360px;
+    height: 380px;
   }
 }

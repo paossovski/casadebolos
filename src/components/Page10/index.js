@@ -3,7 +3,7 @@ import React from 'react';
 import '../../global_styles.css';
 import './styles.css';
 
-import cdb05 from '../../images/cdb_05.jpg';
+import cdb05 from '../../images/cdb_05.png';
 
 import { Numbering } from '../Numbering';
 import { Top } from '../Top';
