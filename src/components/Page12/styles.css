@@ -58,10 +58,20 @@
   }
 
   .Page12__Img__Margins {
-    width: 280px;
+    width: 360px;
+    height: 280px;
   }
 
   .Page12__Legend {
     margin-bottom: 20px;
+  }
+
+  .Page12__Img {
+    width: 360px;
+    height: 280px;
+  }
+
+  .Page12__Img--Width {
+    width: 360px;
   }
 }

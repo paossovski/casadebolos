@@ -19,3 +19,9 @@
 .Page78__Text--Border {
   border-bottom: 1px solid black;
 }
+
+@media screen and (max-width: 480px) {
+  .Page78__Img {
+    width: 300px;
+  } 
+}

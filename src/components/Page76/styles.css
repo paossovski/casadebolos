@@ -15,3 +15,9 @@
 .Page76__Text--Align {
   text-align: center;
 }
+
+@media screen and (max-width: 480px) {
+  .Page76__Img {
+    width: 360px;
+  }
+}

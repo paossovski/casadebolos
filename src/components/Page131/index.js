@@ -16,7 +16,7 @@ export const Page131 = () => {
     >
       <div className='Page131__Container'>
         <div className='Page131__Content__Container'>
-          <div>
+          <div className='Page131__Img--Align'>
             <img className='Page131__Img' src={cdb131} alt='' />
           </div>
           <div className='Page131__Text__Container'>

@@ -35,6 +35,12 @@
   font-size: var(--font-size-16);
 }
 
+.Page136__Img--Align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media screen and (max-width: 480px) {
   .Page136__Content__Container {
     flex-direction: column;
@@ -42,7 +48,7 @@
   }
 
   .Page136__Img {
-    width: 310px;
+    width: 360px;
   }
 
   .Page136__Text {

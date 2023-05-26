@@ -28,8 +28,12 @@
   }
 
   .Page46__Img--A {
-    width: 260px;
-    height: 380px;
-    margin-bottom: 10px;
+    width: 360px;
+  }
+
+  .Page46__Img--B {
+    width: 360px;
+    height: 220px;
+    margin-top: 20px;
   }
 }

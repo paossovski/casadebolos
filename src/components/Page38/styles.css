@@ -6,6 +6,7 @@
 .Page38__Container {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .Page38__Text--Background {
@@ -21,7 +22,7 @@ b {
 
 @media screen and (max-width: 480px) {
   .Page38__Img {
-    width: 310px;
-    height: 200px;
+    width: 360px;
+    height: 240px;
   }
 }

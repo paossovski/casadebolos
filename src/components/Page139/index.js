@@ -29,7 +29,7 @@ export const Page139 = () => {
           </p>
         </div>
         <div className='Page139__Content__Container'>
-          <div>
+          <div className='Page139__Img--Align'>
             <img className='Page139__Img' src={cdb139} alt='' />
           </div>
           <div className='Page139__Text__Container'>

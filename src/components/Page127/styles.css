@@ -19,6 +19,10 @@
 
 @media screen and (max-width: 480px) {
   .Page127__Img--A {
-    width: 100px;
+    width: 120px;
+  }
+
+  .Page127__Img {
+    width: 280px;
   }
 }

@@ -59,4 +59,8 @@ h2 {
   h2 {
     font-size: var(--font-size-14);
   }
+
+  .Page125__Img {
+    width: 360px;
+  }
 }

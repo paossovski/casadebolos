@@ -32,13 +32,19 @@
   margin-left: 60px;
 }
 
+.Page131__Img--Align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media screen and (max-width: 480px) {
   .Page131__Content__Container {
     flex-direction: column;
   }
 
   .Page131__Img {
-    width: 310px;
+    width: 360px;
   }
 
   .Page131__Text {

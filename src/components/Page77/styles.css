@@ -11,3 +11,9 @@
   width: 180px;
   align-self: center;
 }
+
+@media screen and (max-width: 480px) {
+  .Page77__Img {
+    width: 360px;
+  }
+}

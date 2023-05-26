@@ -16,14 +16,14 @@
 
 @media screen and (max-width: 480px) {
   .Page61__Img--A {
-    width: 310px;
-    height: 260px;
+    width: 360px;
+    height: 280px;
     align-self: center;
   }
   
   .Page61__Img--B {
-    width: 310px;
-    height: 100px;
+    width: 360px;
+    height: 140px;
     align-self: center;
   }  
 }

@@ -26,7 +26,7 @@ export const Page138 = () => {
           </p>
         </div>
         <div className='Page138__Content__Container'>
-          <div>
+          <div className='Page138__Img--Align'>
             <img className='Page138__Img' src={cdb138} alt='' />
           </div>
           <div className='Page138__Text__Container'>
