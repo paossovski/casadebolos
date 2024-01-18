@@ -1,0 +1,15 @@
+.Page82__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page82__Img {
+  width: 350px;
+  align-self: center;
+}
+
+@media screen and (max-width: 480px) {
+  .Page82__Img {
+    width: 360px;
+  }  
+}

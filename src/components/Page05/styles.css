@@ -1,0 +1,42 @@
+.Page05__Text {
+  text-align: center;
+  font-weight: 600;
+  font-size: var(--font-size-18);
+}
+
+.Page05__Container {
+  display: flex;
+  flex-direction: row;
+}
+
+.Page05__Img {
+  width: 220px;
+  height: 245px;
+}
+
+.Page05__Text--Margin {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .Page05__Container {
+    flex-direction: column;
+  }
+
+  .Page05__Text--Margin {
+    margin-left: 0;
+  }  
+  
+  .Page05__Img {
+    width: 350px;
+    height: 260px;
+    margin-top: 10px;
+  } 
+
+  .Page05__Img__Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+

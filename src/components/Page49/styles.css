@@ -1,0 +1,16 @@
+.Page49__Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Page49__Text {
+  font-size: var(--font-size-15);
+  text-align: center;
+}
+
+.Page49__Img {
+  width: 360px;
+  height: 350px;
+  margin-top: 5px;
+}

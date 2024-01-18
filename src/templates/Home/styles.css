@@ -1,0 +1,38 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+}
+
+.Home {                     /* Container-Home */
+  display: flex;
+  flex-direction: row;
+  flex-basis: 1;
+  flex-grow: 1;
+  justify-content: space-around;
+  align-items:center;  
+  width: 100%;  
+  background-color: var(--light-salmao-color);
+} 
+
+.Home__Container {                        /* Home */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: auto;
+  max-width: 21cm; 
+  margin: 0 auto;
+  margin-top: 40px; 
+  background-color: var(--white-color);  
+} 
+
+@media screen and (max-width: 480px) {
+  .Home__Container {
+    margin: 5px 5px;
+  }
+}

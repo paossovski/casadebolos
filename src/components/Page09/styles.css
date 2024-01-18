@@ -1,0 +1,15 @@
+.Page09__Title {
+  width: 100%;
+  text-align: center;
+}
+
+.Page09__Line {
+  line-height: var(--line-height-md);
+  text-indent: 25px;
+}
+
+@media screen and (max-width: 480px) {
+  .Page09__Title {
+    font-size: var(--font-size-18);
+  }
+}

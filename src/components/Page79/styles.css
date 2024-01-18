@@ -1,0 +1,26 @@
+.Page79__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page79__Img__Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Page79__Img {
+  width: 240px;
+}
+
+@media screen and (max-width: 480px) {
+  .Page79__Img__Container {
+    flex-direction: column;
+    align-items: center;
+  }  
+
+  .Page79__Img {
+    margin-bottom: 10px;
+    width: 360px;
+  }  
+}

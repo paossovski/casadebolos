@@ -1,0 +1,17 @@
+.Page52__Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Page52__Img {
+  width: 320px;
+  height: 200px;
+}
+
+@media screen and (max-width: 480px) {
+  .Page52__Img {
+    width: 360px;
+    height: 220px;
+  }  
+}

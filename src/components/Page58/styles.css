@@ -1,0 +1,37 @@
+.Page58__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page58__Text--Color--A {
+  color: var(--royal-blue-color);
+  line-height: 1.8;
+} 
+
+.Page58__Ancora {
+  background-color: var(--white-color);
+}
+
+.Page58__Text--Color--B {
+  color: var(--golden-color);
+}
+
+.Page58__Text--Color--C {
+  color: var(--hot-pink-color);
+}
+
+.Page58__Text--Color--D {
+  color: var(--royal-blue-color);
+}
+
+.Page58__Text--Color--E {
+  color: var(--forest-green-color);
+}
+
+.Page58__Text--Color--F {
+  color: var(--deep-pink-color);
+}
+
+.Page58__Text--Color--G {
+  color: var(--orange-red-color);
+}

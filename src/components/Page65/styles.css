@@ -1,0 +1,29 @@
+.Page65__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page65__Text--Border {
+  border-bottom: 2px solid black;
+}
+
+.Page65__Img {
+  width: 600px;
+  height: 250px;
+  align-self: center;
+}
+
+.Page65__Text--Background {
+  background-color: yellow;
+}
+
+.Page65__Text--Align {
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .Page65__Img {
+    width: 360px;
+    height: 150px;
+  }  
+}

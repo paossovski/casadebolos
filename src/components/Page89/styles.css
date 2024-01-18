@@ -1,0 +1,23 @@
+.Page89__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page89__Text--Font {
+  font-size: var(--font-size-18);
+}
+
+.Page89__Text--Align {
+  text-align: center;
+}
+
+.Page89__Img {
+  width: 350px;
+  align-self: center;
+}
+
+@media screen and (max-width: 480px) {
+  .Page89__Img {
+    width: 360px;
+  }  
+}

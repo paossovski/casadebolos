@@ -1,0 +1,10 @@
+.Page141__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page141__Text {
+  text-align: right;
+  margin-top: 100px;
+}
+

@@ -1,0 +1,77 @@
+.Page12__Text--Align {
+  width: 100%;
+  text-align: center;
+}
+
+.Page12__Img__Container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  width: auto;
+}
+
+.Page12__Img {
+  width: 260px;
+  height: 250px;
+  padding-right: 5px;
+}
+
+.Page12__Img--Width {
+  width: 260px;
+}
+
+.Page12__Img__Margins {
+  width: 330px;
+  height: 270px;
+  margin-bottom: 2px;
+}
+
+.Page12__Legend {
+  font-family: var(--font-family-arial);
+  font-size: var(--font-size-14);
+  text-align: center;
+}
+
+.Page12__Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Page12__Text__Line {
+  line-height: var(--line-height-md);
+  text-align: center;
+}
+
+.Page12__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 480px) {
+  .Page12__Img__Container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Page12__Img__Margins {
+    width: 360px;
+    height: 280px;
+  }
+
+  .Page12__Legend {
+    margin-bottom: 20px;
+  }
+
+  .Page12__Img {
+    width: 360px;
+    height: 280px;
+  }
+
+  .Page12__Img--Width {
+    width: 360px;
+  }
+}

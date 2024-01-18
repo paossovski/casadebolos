@@ -1,0 +1,9 @@
+.Page59__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page59__Text--Align {
+  text-align: center;
+  font-size: var(--font-size-18);
+}

@@ -1,0 +1,39 @@
+.Page46__Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Page46__Img__Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.Page46__Img--A {
+  width: 220px;
+  height: 340px;
+}
+
+.Page46__Img--B {
+  width: 260px;
+  height: 210px;
+}
+
+@media screen and (max-width: 480px) {
+  .Page46__Img__Container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Page46__Img--A {
+    width: 360px;
+  }
+
+  .Page46__Img--B {
+    width: 360px;
+    height: 220px;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,38 @@
+.Cover__Container {      
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  width: auto;
+  height: 45%;
+  margin-bottom: 110px;
+}
+
+.Cover__Title {
+  font-family: var(--font-family-tahoma);
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: center;
+  color: var(--salmao-color);
+}
+
+.Cover__Logo__Container {   
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 55%;
+}
+
+.Cover__Logo {
+  width: 100%;
+  height: 25%;
+  margin-bottom: 200px;
+}
+
+@media screen and (max-width: 480px) {
+  .Cover__Title {
+    font-size: 3rem;
+  }
+}
+
+
+

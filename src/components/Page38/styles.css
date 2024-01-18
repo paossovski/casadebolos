@@ -1,0 +1,28 @@
+.Page38__Text--Align {
+  font-size: var(--font-size-18);
+  text-align: center;
+}
+
+.Page38__Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Page38__Text--Background {
+  font-size: var(--font-size-15);
+  text-align: center;
+  background-color: yellow;
+  width: 100%;
+}
+
+b {
+  font-size: var(--font-size-14);
+}
+
+@media screen and (max-width: 480px) {
+  .Page38__Img {
+    width: 360px;
+    height: 240px;
+  }
+}

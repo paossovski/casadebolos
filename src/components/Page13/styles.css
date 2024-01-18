@@ -1,0 +1,16 @@
+.Page13__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page13__Title {
+  width: 100%;
+  text-align: center;
+  font-size: var(--font-size-20);
+} 
+
+@media  screen and (max-width: 480px) {
+  .Page13__Container {
+    height: 700px;
+  }
+}

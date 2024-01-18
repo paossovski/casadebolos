@@ -1,0 +1,23 @@
+.Page74__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page74__Img {
+  width: 330px;
+  align-self: center;
+}
+
+.Page74__Text--Font {
+  font-size: var(--font-size-18);
+}
+
+.Page74__Text--Align {
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .Page74__Img {
+    width: 360px;
+  }
+}

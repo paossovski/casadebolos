@@ -1,0 +1,28 @@
+.Page11__Text {
+  line-height: var(--line-height-md);
+  text-indent: 25px;
+}
+
+.Page11__Img__Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  width: 100%;
+}
+
+.Page11__Img {
+  width: 250px;
+}
+
+@media screen and (max-width: 480px) {
+  .Page11__Img__Container {
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 30px;
+  }
+
+  .Page11__Img {
+    width: 360px;
+  }
+}

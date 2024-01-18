@@ -1,0 +1,14 @@
+.Page112__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page112__Img {
+  width: 580px;
+}
+
+@media screen and (max-width: 480px) {
+  .Page112__Img {
+    width: 360px;
+  }
+}

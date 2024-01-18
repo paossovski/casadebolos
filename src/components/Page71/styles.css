@@ -1,0 +1,20 @@
+.Page71__Container { 
+  display: flex;
+  flex-direction: column;
+}
+
+.Page71__Text--Align {
+  font-size: 20px;
+  text-align: center;
+}
+
+.Page71__Img {
+  width: 400px;
+  align-self: center;
+}
+
+@media screen and (max-width: 480px) {
+  .Page71__Img {
+    width: 360px;
+  }
+}

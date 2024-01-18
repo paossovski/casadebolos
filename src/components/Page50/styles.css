@@ -1,0 +1,40 @@
+.Page50__Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Page50__Img--A {
+  width: 250px;
+  height: 320px;
+}
+
+.Page50__Img__Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Page50__Img--B {
+  width: 270px;
+  height: 150px;
+}
+
+@media screen and (max-width: 480px) {
+  .Page50__Img__Container {
+    flex-direction: column;
+  }
+
+  .Page50__Img--A {
+    width: 360px;
+    height: 370px;
+  }
+
+  .Page50__Img--B {
+    width: 360px;
+    height: 200px;
+    margin-bottom: 10px;
+  }  
+}
+
+

@@ -1,0 +1,22 @@
+.Page37__Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Page37__Text {
+  text-align: center;
+  font-size: var(--font-size-20);
+}
+
+.Page37__Img {
+  width: 450px;
+  height: 355px;
+}
+
+@media screen and (max-width: 480px) {
+  .Page37__Img {
+    width: 360px;
+    height: 340px;
+  }
+}

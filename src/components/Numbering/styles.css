@@ -1,0 +1,14 @@
+.Pagination__Size {
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 25px;
+  height: 25px;
+}
+
+.Pagination__Number {
+  width: auto;
+  height: auto;
+  color: var(--grey-medium-color);
+  font-family: var(--font-family-arial);
+  font-size: var(--font-size-16);
+}

@@ -1,0 +1,19 @@
+.Page77__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page77__Text--Background {
+  background-color: yellow;
+}
+
+.Page77__Img {
+  width: 180px;
+  align-self: center;
+}
+
+@media screen and (max-width: 480px) {
+  .Page77__Img {
+    width: 360px;
+  }
+}

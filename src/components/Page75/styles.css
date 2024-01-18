@@ -1,0 +1,9 @@
+.Page75__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page75__Img {
+  width: 360px;
+  align-self: center;
+}

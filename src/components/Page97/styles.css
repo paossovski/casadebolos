@@ -1,0 +1,8 @@
+.Page97__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page97__Text--Border {
+  border-bottom: 2px solid black;
+}

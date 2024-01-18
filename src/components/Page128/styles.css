@@ -1,0 +1,42 @@
+.Page129__Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.Page128__Img__Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Page128__Legend__Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+b {
+  font-size: var(--font-size-18);
+}
+
+@media screen and (max-width: 480px) {
+  .Page128__Img__Container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Page128__Img {
+    width: 360px;
+    margin-top: 10px;
+  }
+
+  .Page128__Img--B {
+    width: 200px;
+  }
+
+  b {
+    font-size: var(--font-size-16)
+  }
+}

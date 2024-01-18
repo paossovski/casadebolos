@@ -1,0 +1,47 @@
+.Page60__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page60__Img__Container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.Page60__Img {
+  width: 260px;
+  height: 350px;
+}
+
+.Page60__Title__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page60__Img--Title {
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+
+.Page60__Background--Color {
+  background-color: yellow;
+}
+
+@media screen and (max-width: 480px) {
+  .Page60__Img__Container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Page60__Img--Title {
+    margin-top: 25px;
+  }
+
+  .Page60__Img {
+    margin-bottom: 25px;
+    width: 360px;
+    height: 380px;
+  }
+}

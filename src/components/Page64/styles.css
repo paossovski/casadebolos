@@ -1,0 +1,15 @@
+.Page64__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page64__Img {
+  width: 280px;
+  align-self: center;
+}
+
+@media screen and (max-width: 480px) {
+  .Page64__Img {
+    width: 360px;
+  }  
+}

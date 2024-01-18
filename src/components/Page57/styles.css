@@ -1,0 +1,36 @@
+.Page57__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page57__Text--Align {
+  text-align: center;
+}
+
+.Page57__Text--Size {
+  font-size: var(--font-size-18);
+}
+
+.Page57__Ancora {
+  background-color: var(--white-color);
+}
+
+.Page57__Text--Color--A {
+  color: var(--golden-color);
+  line-height: 1.8;
+}
+
+.Page57__Text--Color--B {
+  color: var(--hot-pink-color);
+  line-height: 1.8;
+}
+
+.Page57__Text--Color--C {
+  color: var(--forest-green-color);
+  line-height: 1.8;
+}
+
+.Page57__Text--Color--D {
+  color: var(--deep-pink-color);
+  line-height: 1.8;
+}

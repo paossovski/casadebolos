@@ -1,0 +1,25 @@
+.Page87__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page87__Img__Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+}
+
+.Page87__Img {
+  width: 300px;
+}
+
+@media screen and (max-width: 480px) {
+  .Page87__Img__Container {
+    flex-direction: column;
+  }  
+
+  .Page87__Img {
+    width: 360px;
+  }  
+}

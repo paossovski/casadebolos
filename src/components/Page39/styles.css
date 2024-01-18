@@ -1,0 +1,8 @@
+.Page39__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+b {
+  font-size: var(--font-size-14);
+}

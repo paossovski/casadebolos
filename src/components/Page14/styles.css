@@ -1,0 +1,25 @@
+.Page14__Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Page__Title {
+  font-size: var(--font-size-20);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.Page14__Text--Border {
+  border-bottom: 2px solid black;
+}
+
+.Page14__Img {
+  width: 500px;
+}
+
+@media screen and (max-width: 480px) {
+  .Page14__Img {
+    width: 360px;
+  }  
+}

@@ -1,0 +1,144 @@
+:root {
+  --white-color:        #FFFFFF;
+  --salmao-color:       rgb(249, 186, 156);
+  --light-salmao-color: rgb(243, 212, 212);
+  --golden-color:       #FFD700;
+  --hot-pink-color:     #FF69B4;
+  --forest-green-color: #228B22;
+  --deep-pink-color:    #FF1493;
+  --royal-blue-color:   #4169E1;
+  --orange-red-color:   #FF4500;
+  --crimson-color:  	  #DC143C;
+  --grey-medium-color:  #808080;
+  
+  --font-family-arial: Arial, Helvetica, sans-serif;
+  --font-family-tahoma: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  --font-size-14: 14px; 
+  --font-size-15: 15px;
+  --font-size-16: 16px;
+  --font-size-18: 18px;
+  --font-size-20: 20px;
+  --font-size-22: 22px;
+
+  --line-height-sm: 1.5;   
+  --line-height-md: 1.8;  
+  --line-height-lg: 2;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.Page {                   
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 21cm;
+  height: 31.7cm;
+  max-height: 31.7cm;
+}
+
+.Page__Container {                    
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  align-content: center;
+  justify-content: space-between;
+  width: 100%; 
+}
+
+.Page__Margins {                    
+  padding-left: 3cm;
+  padding-right: 3cm;
+  padding-top: 2.5cm;
+  padding-bottom: 2.5cm;
+}
+
+.Page__Text {                                
+  font-family: var(--font-family-arial);
+  font-size: var(--font-size-14);
+  text-align: justify;
+  line-height: var(--line-height-small);
+}
+
+.Pagination__Container {              
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+}
+
+.Page__Book__Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Page__Book__Img {
+  height: 820px;
+}
+
+.Page__Line--Height {                         
+  line-height: var(--line-height-md);
+}
+
+.Page__Top__Container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.Page_Numbering_Container {
+  display: flex;
+  flex-direction: row;
+  width: 45%;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.Page__Up__Container {
+  display: flex;
+  flex-direction: row;
+  width: 55%;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 480px) {
+  .Page__Text {
+    font-size: var(--font-size-15);
+  }
+
+  .Page__Margins {
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+  }
+
+  .Page {
+    height: none;
+    max-height: none;
+  }
+
+  .Page__Mobile {                  
+    height: auto;
+    min-height: 1100px;
+  }
+
+  .Page__Book__Img {
+    width: 365px;
+    height: 500px;
+  }
+
+  .Page__Top__Container {
+    justify-content: flex-start;
+    margin-bottom: -30px;
+  }
+
+  .Page__Up__Container {
+    justify-content: flex-start;
+    margin-top: 15px;
+  }
+}

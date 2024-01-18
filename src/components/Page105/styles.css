@@ -1,0 +1,12 @@
+.Page105__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page105__Text--Border {
+  border-bottom: 2px solid black;
+}
+
+.Page105__Text--Background {
+  background-color: yellow;
+}

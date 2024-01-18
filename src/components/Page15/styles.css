@@ -1,0 +1,19 @@
+.Page15__Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Page15__Text--Border {
+  border-bottom: 2px solid black;
+}
+
+.Page15__Img {
+  width: 500px;
+}
+
+@media screen and (max-width: 480px) {
+  .Page15__Img {
+    width: 360px;
+  }  
+}

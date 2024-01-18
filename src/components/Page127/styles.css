@@ -1,0 +1,28 @@
+.Page127__Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.Page127__Img__Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.Page127__Img__Container--B {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 480px) {
+  .Page127__Img--A {
+    width: 120px;
+  }
+
+  .Page127__Img {
+    width: 280px;
+  }
+}

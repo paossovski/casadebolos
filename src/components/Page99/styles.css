@@ -1,0 +1,16 @@
+.Page99__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page99__Text--Border {
+  border-bottom: 2px solid black;
+}
+
+.Page99__Text--Font {
+  font-size: var(--font-size-18);
+}
+
+.Page99__Text--Background {
+  background-color: yellow;
+}

@@ -1,0 +1,62 @@
+.Page02__Container {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 100%;
+  align-items: center;
+}
+
+.Page02__Img {
+  width: 190px;
+  height: 55px;
+}
+
+.Page02__Title__Container {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.Page02__Title--Font {
+  font-family: var(--font-family-tahoma);
+  font-size: var(--font-size-18);
+}
+
+.Page02__Index {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 6px;
+}
+
+
+.Page__Index {                                
+  font-family: var(--font-family-arial);
+  font-size: var(--font-size-14);
+  text-align: justify;
+}
+
+.Page_Break {
+  display: flex;
+  flex-direction: row;
+}
+
+.Page__Break--Number {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 480px) {
+  .Page_Break {
+    flex-direction: column;
+  }
+
+  .Page__Break--Number {
+    align-items: end;
+  }
+}

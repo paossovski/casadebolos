@@ -1,0 +1,27 @@
+.Page78__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page78__Img {
+  width: 160px;
+  align-self: center;
+}
+
+.Page78__Text--Font {
+  font-size: var(--font-size-18);
+}
+
+.Page78__Text--Align {
+  text-align: center;
+}
+
+.Page78__Text--Border {
+  border-bottom: 1px solid black;
+}
+
+@media screen and (max-width: 480px) {
+  .Page78__Img {
+    width: 300px;
+  } 
+}

@@ -1,0 +1,40 @@
+.Page56__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Text56__Text--Margin {
+  margin-bottom: 5px;
+}
+
+.Page56__Text--Align {
+  text-align: center;
+}
+
+.Page__Text--Color--A {
+  color: var(--golden-color);
+}
+
+.Page__Text--Color--B {
+  color: var(--hot-pink-color);
+}
+
+.Page__Text--Color--C {
+  color: var(--forest-green-color);
+}
+
+.Page__Text--Color--D {
+  color: var(--deep-pink-color);
+}
+
+.Page__Text--Color--E {
+  color: var(--royal-blue-color);
+}
+
+.Page__Text--Color--F {
+  color: var(--orange-red-color);
+}
+
+.Page__Text--Color--G {
+  color: var(--crimson-color);
+}

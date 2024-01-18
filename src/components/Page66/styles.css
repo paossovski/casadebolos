@@ -1,0 +1,14 @@
+.Page66__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page66__Img {
+  align-self: center;
+}
+
+@media screen and (max-width: 480px) {
+  .Page66__Img {
+    width: 360px;
+  }  
+}

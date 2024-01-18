@@ -1,0 +1,34 @@
+.Page22__Title {
+  font-family: var(--font-family-arial);
+  font-size: var(--font-size-18);
+  text-align: center;
+}
+
+.Page22__Text {
+  font-size: var(--font-size-14);
+}
+
+.Page22__Img__Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Page22__Img {
+  width: 270px;
+  height: 250px;
+}
+
+@media screen and (max-width: 480px) {
+  .Page22__Img__Container {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .Page22__Img {
+    width: 360px;
+    height: 320px;
+    margin-bottom: 10px;
+  }
+}

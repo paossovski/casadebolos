@@ -1,0 +1,22 @@
+.Page43__Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Page43__Text {
+  font-size: var(--font-size-18);
+  text-align: center;
+}
+
+.Page43__Img {
+  width: 430px;
+  height: 320px;
+}
+
+@media screen and (max-width: 480px) {
+  .Page43__Img {
+    width: 360px;
+    height: 340px;
+  }
+}

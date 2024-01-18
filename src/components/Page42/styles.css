@@ -1,0 +1,19 @@
+.Page42__Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Page42__Text {
+  background-color: yellow;
+}
+
+.Page42__Img {
+  width: 500px;
+}
+
+@media screen and (max-width: 480px) {
+  .Page42__Img {
+    width: 360px;
+  }
+}

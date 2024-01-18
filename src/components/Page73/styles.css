@@ -1,0 +1,16 @@
+.Page73__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page73__Img {
+  width: 330px;
+  align-self: center;
+}
+
+@media screen and (max-width: 480px) {
+  .Page73__Img {
+    width: 360px;
+    margin-bottom: 20px;
+  }  
+}
