@@ -23,6 +23,7 @@ export const Map = ({latitude, longitude, text}) => {
   });
 
   const [map, setMap] = useState(null);
+  console.log(map);
 
   const onUnmount = useCallback(function callback(map) {
     setMap(null)
